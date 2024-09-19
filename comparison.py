@@ -65,7 +65,7 @@ def createMetaObjects(file_path):
         sample_names = extract_sample(infile,1)
         sample_names = [name.replace("_output","") for name in sample_names]       
         unknown = extract_sample(infile,1)
-        unknown = [float(value) for value in unknown]
+        unknown = [value for value in unknown]
         
         for i in range(len(sample_names)):
             file_to_open =path_to_meta+sample_names[i]+"_output.txt"
@@ -89,19 +89,26 @@ def createKrakenObjects(file_path):
         reader = csv.reader(infile, delimiter='\t')
         infile.seek(0)
         sample_names = extract_sample(infile,8)
+        infile.seek(0)
+        type_names = extract_sample(infile,0)
         print(sample_names)
 
         for line_s in reader:
             percentual = line_s[8:]
-            letter="Species"
-            name = line_s[7]
+            i = 7
+            while line_s[i] == "NA":
+                i -= 1
+            letter=type_names[i]
+            name = line_s[i]
             clade = line_s[0]
-            three=""
-            for i in range(1,7):
-                 three= three+line_s[i]+"|"
-            three=three+line_s[i+1]
+            three = ""
+            n=0
+            for n in range(1,i):
+                 three= three+line_s[n]+"|"
+            three=three+line_s[n+1]
             for n in range(len(sample_names)):
-                categorization = Categorization("Kraken",
+                if percentual[n] != "0":
+                    categorization = Categorization("Kraken",
                                                  sample_names[n],
                                                  letter,
                                                  three,
@@ -109,20 +116,20 @@ def createKrakenObjects(file_path):
                                                  clade,
                                                  percentual[n],
                                                  percentual[n] ) 
-                categorization_list.append(categorization)
+                    categorization_list.append(categorization)
     return categorization_list
 
 
 
 
-krakenFile="Kraken_otu.tsv"
-metaFile = "meta_table.tsv"
-metaObj=createMetaObjects(metaFile)
+krakenFile="kraken_taxa.tsv"
+#metaFile = "kraken_taxa.tsv"
+#metaObj=createMetaObjects(metaFile)
 krakenObj=createKrakenObjects(krakenFile)
 
-with open("categorization_list.txt", "w") as outfile:
-                for categorization in metaObj:
-                    outfile.write(f"{categorization.tool}\t{categorization.sample}\t{categorization.depth}\t{categorization.three}\t{categorization.name}\t{categorization.clade}\t{categorization.quantity}\t{categorization.qtyWOU}\n")
+#with open("categorization_list.txt", "w") as outfile:
+#                for categorization in metaObj:
+#                    outfile.write(f"{categorization.tool}\t{categorization.sample}\t{categorization.depth}\t{categorization.three}\t{categorization.name}\t{categorization.clade}\t{categorization.quantity}\t{categorization.qtyWOU}\n")
 
 
 with open("kraken_list.txt", "w") as outfile:
