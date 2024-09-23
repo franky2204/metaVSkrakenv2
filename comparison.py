@@ -175,8 +175,7 @@ def compareFiles(metaObj, krakenObj,naive):
                     avg_clade_file.write(f"{depth}\t{clade}\t{taxonomic_tree}\t{avg_meta}\t{avg_kraken}\t{calculate_difference(avg_meta,avg_kraken)}\n")
 
 
-def differenza_liste(lista1, lista2):
-    # Restituisce i nomi presenti in lista1 ma non in lista2
+def list_difference(lista1, lista2):
     return [nome for nome in lista1 if nome not in lista2]
 
 
@@ -193,7 +192,7 @@ with open("categorization_list.txt", "w") as outfile:
 with open("kraken_list.txt", "w") as outfile:
                 for categorization in krakenObj:
                     outfile.write(f"{categorization.tool}\t{categorization.sample}\t{categorization.depth}\t{categorization.three}\t{categorization.name}\t{categorization.clade}\t{categorization.quantity}\t{categorization.qtyWOU}\n")
-naive=differenza_liste(mList,kList)
+naive=list_difference(mList,kList)
 compareFiles(metaObj,krakenObj,naive)
 #compareTotal(metaObj,krakenObj)
 
