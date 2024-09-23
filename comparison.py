@@ -8,7 +8,7 @@ class Categorization:
         self.depth = depth
         self.three =three
         self.name = name
-        self.clade = clade
+        self.clade = clade#renaame inn taxaid
         self.quantity = quantity
         self.qtyWOU = qtyWOU
 
@@ -76,9 +76,15 @@ def createMetaObjects(file_path):
                         line_s = line_s.split('\t')
                         percentual = float(line_s[2])
                         letter,name=find_last_name(line_s[0])
-                        categorization = Categorization("MetaPhlAn", sample_names[i], from_letter_to_taxa(letter),re.sub(r'[a-zA-Z]__', '', line_s[0]),name ,findClade(line_s[1]) ,percentual, ((percentual/(100-unknown[i]))*100)) 
+                        categorization = Categorization("MetaPhlAn",
+                                                         sample_names[i],
+                                                         from_letter_to_taxa(letter),
+                                                         re.sub(r'[a-zA-Z]__', '', line_s[0]),
+                                                         name ,
+                                                         findClade(line_s[1]),
+                                                         (percentual/100),
+                                                         ((percentual/(100-unknown[i])))) 
                         categorization_list.append(categorization)
-            # Write categorization_list to a file
     return sample_names,categorization_list  
 
 def createKrakenObjects(file_path):
@@ -117,47 +123,58 @@ def createKrakenObjects(file_path):
                                                  percentual[n] ) 
                     categorization_list.append(categorization)
     return sample_names,categorization_list
+def calculate_difference(meta_quantity, kraken_quantity):
+    return (float(meta_quantity) - float(kraken_quantity))
+def calculate_average(values):
+    numeric_values = [float(value) for value in values]
+    return sum(numeric_values) / len(numeric_values) if numeric_values else 0
 
-def compareFiles(metaObj,krakenObj):
-        comparison_results = []
-        meta_dict = {(obj.sample, obj.clade): obj for obj in metaObj}
-        kraken_dict = {(obj.sample, obj.clade): obj for obj in krakenObj}
+def compareFiles(metaObj, krakenObj,naive):
+    # Separate results based on sample, depth, and name for comparison
+    depth_levels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'Strain']
+    
+    with open("comparison_by_sample_depth_name.txt", "w") as sample_depth_file:
+        sample_depth_file.write("Sample\tDepth\tTaxa_id\tTaxonomic Tree\tMetaPhlAn Quantity\tKraken Quantity\tDifference\n")
+        for depth in depth_levels:
+            for meta_cat in metaObj:
+                if meta_cat.depth == depth and meta_cat.clade != -1 and meta_cat.sample not in naive:
+                    corresponding_kraken = [k for k in krakenObj if k.sample == meta_cat.sample and k.clade == meta_cat.clade and k.depth == depth]
+                    if corresponding_kraken:
+                        kraken_cat = corresponding_kraken[0]
+                        sample_depth_file.write(f"{meta_cat.sample}\t{depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_cat.qtyWOU}\t{kraken_cat.quantity}\t{calculate_difference(meta_cat.qtyWOU,kraken_cat.quantity)}\n")
+                    else:
+                        sample_depth_file.write(f"{meta_cat.sample}\t{depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_cat.quantity}\t0\n")
 
-        all_keys = set(meta_dict.keys()).union(set(kraken_dict.keys()))
+    # Calculate and compare averages for all clades between MetaPhlAn and Kraken, grouped by depth and name
+    depth_name_quantities_meta = {depth: {} for depth in depth_levels}
+    depth_name_quantities_kraken = {depth: {} for depth in depth_levels}
+    
+    # Collect MetaPhlAn quantities grouped by depth and name
+    for meta_cat in metaObj:
+        if meta_cat.name not in depth_name_quantities_meta[meta_cat.depth] or meta_cat.clade not in depth_name_quantities_meta[meta_cat.depth]:
+            depth_name_quantities_meta[meta_cat.depth][meta_cat.clade] = []
+        depth_name_quantities_meta[meta_cat.depth][meta_cat.clade].append(meta_cat.qtyWOU)
+        
+    # Collect Kraken quantities grouped by depth and name
+    for kraken_cat in krakenObj:
+        if kraken_cat.name not in depth_name_quantities_kraken[kraken_cat.depth]:
+            depth_name_quantities_kraken[kraken_cat.depth][kraken_cat.clade] = []
+        depth_name_quantities_kraken[kraken_cat.depth][kraken_cat.clade].append(kraken_cat.quantity)
 
-        for key in all_keys:
-            meta_item = meta_dict.get(key)
-            kraken_item = kraken_dict.get(key)
+    with open("average_clade_comparison_by_name.txt", "w") as avg_clade_file:
+        avg_clade_file.write("Depth\tTaxaid\tTaxonomic Tree\tMetaPhlAn Average\tKraken Average\n")
+        for depth in depth_levels :
+            all_names = set(depth_name_quantities_meta[depth].keys()).union(set(depth_name_quantities_kraken[depth].keys()))
+            for clade in all_names:
+                if  clade!= -1:
+                    avg_meta = calculate_average(depth_name_quantities_meta[depth].get(clade, []))
+                    avg_kraken = calculate_average(depth_name_quantities_kraken[depth].get(clade, []))
+                    example_meta = next((meta_cat for meta_cat in metaObj if meta_cat.clade == clade and meta_cat.depth == depth), None)
+                    example_kraken = next((kraken_cat for kraken_cat in krakenObj if kraken_cat.clade == clade and kraken_cat.depth == depth), None)
+                    taxonomic_tree = example_meta.three if example_meta else (example_kraken.three if example_kraken else "")
+                    avg_clade_file.write(f"{depth}\t{clade}\t{taxonomic_tree}\t{avg_meta}\t{avg_kraken}\t{calculate_difference(avg_meta,avg_kraken)}\n")
 
-            if meta_item and kraken_item:
-                comparison_results.append({
-                    "sample": key[0],
-                    "clade": key[1],
-                    "meta_quantity": meta_item.quantity,
-                    "kraken_quantity": kraken_item.quantity,
-                    "difference": abs(meta_item.quantity - float(kraken_item.quantity))
-                })
-            elif meta_item:
-                comparison_results.append({
-                    "sample": key[0],
-                    "clade": key[1],
-                    "meta_quantity": meta_item.quantity,
-                    "kraken_quantity": 0,
-                    "difference": meta_item.quantity
-                })
-            elif kraken_item:
-                comparison_results.append({
-                    "sample": key[0],
-                    "clade": key[1],
-                    "meta_quantity": 0,
-                    "kraken_quantity": kraken_item.quantity,
-                    "difference": kraken_item.quantity
-                })
 
-        with open("comparison_results.txt", "w") as outfile:
-            for result in comparison_results:
-                outfile.write(f"{result['sample']}\t{result['clade']}\t{result['meta_quantity']}\t{result['kraken_quantity']}\t{result['difference']}\n")
-     
 def differenza_liste(lista1, lista2):
     # Restituisce i nomi presenti in lista1 ma non in lista2
     return [nome for nome in lista1 if nome not in lista2]
@@ -176,9 +193,8 @@ with open("categorization_list.txt", "w") as outfile:
 with open("kraken_list.txt", "w") as outfile:
                 for categorization in krakenObj:
                     outfile.write(f"{categorization.tool}\t{categorization.sample}\t{categorization.depth}\t{categorization.three}\t{categorization.name}\t{categorization.clade}\t{categorization.quantity}\t{categorization.qtyWOU}\n")
-
-compareFiles(metaObj,krakenObj)
+naive=differenza_liste(mList,kList)
+compareFiles(metaObj,krakenObj,naive)
 #compareTotal(metaObj,krakenObj)
 
 
-print(differenza_liste(mList,kList))
