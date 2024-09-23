@@ -185,20 +185,20 @@ def createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict):
                 sample_kraken.write(
                     f"{kraken_cat.sample}\t{kraken_cat.clade}\t{kraken_cat.three}\t{kraken_cat.quantity}\n"
                 )
-def createMean(meta_dict, kraken_dict):
-    total_samples = 76  # Numero totale di campioni per calcolare la media
-    
-    # Dizionari per sommare le quantità dei clade per MetaPhlAn e Kraken
-    meta_sums = {}
-    kraken_sums = {}
-    
+def createMean(meta_dict, kraken_dict,  healty_samples_count, ms_samples_count, naive):
+
+
+    # Dizionari per sommare le quantità di cladi unici per MetaPhlAn e Kraken
+    meta_sums = {}   # clade -> somma qtyWOU
+    kraken_sums = {}  # clade -> somma quantity
+
     with open("Healty_both.txt", "w") as healty_samples, \
          open("Healty_kraken.txt", "w") as healty_kraken, \
          open("Healty_metaphlan.txt", "w") as healty_metaphlan, \
          open("MS_both.txt", "w") as MS_samples, \
          open("MS_kraken.txt", "w") as MS_kraken, \
          open("MS_metaphlan.txt", "w") as MS_metaphlan:
-        
+
         # Scrivi gli header
         createTemplate2(healty_samples)
         createTemplate1(healty_kraken, "kraken")
@@ -207,68 +207,50 @@ def createMean(meta_dict, kraken_dict):
         createTemplate1(MS_kraken, "kraken")
         createTemplate1(MS_metaphlan, "metaphlan")
 
-        # Raggruppa i risultati per campioni
+        # Raggruppa e somma i valori per clade per MetaPhlAn e Kraken
         for key, meta_cat in meta_dict.items():
+            clade = meta_cat.clade
             sample_name = meta_cat.sample
-            is_ms = "MS" in sample_name or "MAV" in sample_name or "TEC" in sample_name
-            
+            is_ms = ("MS" in sample_name or "MAV" in sample_name or "TEC" in sample_name)and sample_name not in naive
+
+            # Somma i valori per MetaPhlAn
+            if clade not in meta_sums:
+                meta_sums[clade] = 0
+            meta_sums[clade] += float(meta_cat.qtyWOU)
+
             if key in kraken_dict:
                 kraken_cat = kraken_dict[key]
-                # Se presente sia in MetaPhlAn che in Kraken, somma i valori per la media
-                if key not in meta_sums:
-                    meta_sums[key] = [0, 0]  # [MetaPhlAn somma, numero campioni]
-                    kraken_sums[key] = [0, 0]  # [Kraken somma, numero campioni]
 
-                meta_sums[key][0] += float(meta_cat.qtyWOU)
-                kraken_sums[key][0] += float(kraken_cat.quantity)
-                meta_sums[key][1] += 1
-                kraken_sums[key][1] += 1
+                # Somma i valori per Kraken
+                if clade not in kraken_sums:
+                    kraken_sums[clade] = 0
+                kraken_sums[clade] += float(kraken_cat.quantity)
 
-                # Se presente sia in MetaPhlAn che in Kraken, scrivi nel file appropriato
-                if is_ms:
-                    MS_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
-                                     f"{meta_cat.qtyWOU}\t{kraken_cat.quantity}\t{float(meta_cat.qtyWOU)/float(kraken_cat.quantity)}\n")
-                else:
-                    healty_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
-                                         f"{meta_cat.qtyWOU}\t{kraken_cat.quantity}\t{float(meta_cat.qtyWOU)/float(kraken_cat.quantity)}\n")
-            else:
-                # Presente solo in MetaPhlAn
-                if is_ms:
-                    MS_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_cat.qtyWOU}\n")
-                else:
-                    healty_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_cat.qtyWOU}\n")
-
-        # Processa i campioni presenti solo in Kraken
-        for key, kraken_cat in kraken_dict.items():
-            if key not in meta_dict:
-                sample_name = kraken_cat.sample
-                is_ms = "MS" in sample_name or "MAV" in sample_name or "TEC" in sample_name
-                if key not in kraken_sums:
-                    kraken_sums[key] = [0, 0]
-                kraken_sums[key][0] += float(kraken_cat.quantity)
-                kraken_sums[key][1] += 1
-
-                if is_ms:
-                    MS_kraken.write(f"{kraken_cat.depth}\t{kraken_cat.clade}\t{kraken_cat.three}\t{kraken_cat.quantity}\n")
-                else:
-                    healty_kraken.write(f"{kraken_cat.depth}\t{kraken_cat.clade}\t{kraken_cat.three}\t{kraken_cat.quantity}\n")
-
-        # Scrivi le medie nei file
-        for key in meta_sums:
-            meta_mean = meta_sums[key][0] / total_samples
-            kraken_mean = kraken_sums[key][0] / total_samples if key in kraken_sums else 0
-
-            sample_name = meta_dict[key].sample
-            is_ms = "MS" in sample_name or "MAV" in sample_name or "TEC" in sample_name
-
+        # Calcola le medie e scrivi i risultati nei file
+        for clade in meta_sums:
+            meta_mean_qtyWOU = meta_sums[clade] / (ms_samples_count if is_ms else healty_samples_count)
+            kraken_mean_quantity = kraken_sums.get(clade, 0) / (ms_samples_count if is_ms else healty_samples_count)
+            
             if is_ms:
-                MS_samples.write(f"{meta_dict[key].depth}\t{meta_dict[key].clade}\t{meta_dict[key].three}\t"
-                                 f"{meta_mean}\t{kraken_mean}\n")
+                MS_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
+                                 f"{meta_mean_qtyWOU}\t{kraken_mean_quantity}\t"
+                                 f"{meta_mean_qtyWOU/kraken_mean_quantity if kraken_mean_quantity != 0 else 0}\n")
             else:
-                healty_samples.write(f"{meta_dict[key].depth}\t{meta_dict[key].clade}\t{meta_dict[key].three}\t"
-                                     f"{meta_mean}\t{kraken_mean}\n")
+                healty_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
+                                     f"{meta_mean_qtyWOU}\t{kraken_mean_quantity}\t"
+                                     f"{meta_mean_qtyWOU/kraken_mean_quantity if kraken_mean_quantity != 0 else 0}\n")
 
-        
+            # Scrivi anche i file separati per MetaPhlAn e Kraken
+            if is_ms:
+                MS_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_mean_qtyWOU}\n")
+                if clade in kraken_sums:
+                    MS_kraken.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{kraken_mean_quantity}\n")
+            else:
+                healty_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_mean_qtyWOU}\n")
+                if clade in kraken_sums:
+                    healty_kraken.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{kraken_mean_quantity}\n")
+
+     
        
 def createTemplate1(file,tool):
     file.write(f"Depth\tTaxa_id\tTaxonomic_Tree\t{tool}_mean\n")   
@@ -298,7 +280,12 @@ createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict)
 naive = naive + list(neg_pos)
 print(naive)
 meta_cat_mean,kraken_cat_mean,meta_dict_mean,kraken_dict_mean= compareFiles(metaObj,krakenObj,naive,"NA")
-createMean(meta_dict_mean,kraken_dict_mean)
+samples_list = len(mList) - len(naive)
+ms_samples = [sample for sample in mList if "MS" in sample or "MAV" in sample or "TEC" in sample]
+non_naive_non_ms_samples = [sample for sample in mList if sample not in naive and sample not in ms_samples]
+healty_samples_count = len(non_naive_non_ms_samples)
+print(healty_samples_count)
+createMean(meta_dict_mean,kraken_dict_mean,healty_samples_count,samples_list- healty_samples_count,naive)
 #compareTotal(metaObj,krakenObj)
 
 
