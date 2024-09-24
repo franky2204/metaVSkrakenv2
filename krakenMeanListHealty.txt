@@ -1,0 +1,604 @@
+Bacteria	Kingdom	2	17.999999999999993	HEALTY
+Bacteria|Bacteroidota	Phylum	976	6.33064681360099	HEALTY
+Bacteria|Pseudomonadota	Phylum	1224	0.10665931579499298	HEALTY
+Bacteria|Campylobacterota	Phylum	29547	0.0007495202868149454	HEALTY
+Bacteria|Bacillota	Phylum	1239	9.38379430196775	HEALTY
+Bacteria|Synergistota	Phylum	508458	0.0018283396751051424	HEALTY
+Bacteria|Thermodesulfobacteriota	Phylum	200940	0.041284539196497695	HEALTY
+Bacteria|Actinomycetota	Phylum	201174	2.0632901587385435	HEALTY
+Bacteria|Verrucomicrobiota	Phylum	74201	0.07156567597888598	HEALTY
+Bacteria|Spirochaetota	Phylum	203691	0.00018133476042238636	HEALTY
+Bacteria|Bacillota|Erysipelotrichia	Class	526524	0.0928022284702282	HEALTY
+Bacteria|Bacteroidota|Bacteroidia	Class	200643	6.330458662088859	HEALTY
+Bacteria|Bacteroidota|Flavobacteriia	Class	117743	6.767799405800683e-05	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia	Class	84998	0.5170347315150454	HEALTY
+Bacteria|Bacillota|Bacilli	Class	91061	0.09504020258593557	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria	Class	28216	0.07106519283606862	HEALTY
+Bacteria|Bacteroidota|Cytophagia	Class	768503	0.00012047351807442686	HEALTY
+Bacteria|Pseudomonadota|Hydrogenophilia	Class	2008785	2.56930033370764e-05	HEALTY
+Bacteria|Bacillota|Negativicutes	Class	909932	0.3313305717110558	HEALTY
+Bacteria|Campylobacterota|Epsilonproteobacteria	Class	3031852	0.0007495202868149454	HEALTY
+Bacteria|Bacillota|Clostridia	Class	186801	8.86462129920053	HEALTY
+Bacteria|Synergistota|Synergistia	Class	649775	0.0018283396751051424	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria	Class	28211	0.0003309131864679667	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria	Class	1236	0.03523751676911925	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia	Class	3031449	0.041284539196497695	HEALTY
+Bacteria|Actinomycetota|Actinomycetes	Class	1760	1.5462554272234967	HEALTY
+Bacteria|Spirochaetota|Spirochaetia	Class	203692	0.00018133476042238636	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales	Order	1843489	0.2139801690145136	HEALTY
+Bacteria|Bacillota|Negativicutes|Selenomonadales	Order	909929	0.00027818825833002297	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales	Order	135625	0.009907829101068988	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales	Order	526525	0.0928022284702282	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales	Order	171549	6.330458662088859	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales	Order	85006	0.0005821238438991482	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	Order	72274	0.00014558408288597657	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales	Order	85011	0.00010144381841612678	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales	Order	85009	0.0009615049894955637	HEALTY
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales	Order	200644	6.767799405800683e-05	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales	Order	2887326	0.00021424059099194053	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales	Order	1643822	0.18127693758214167	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales	Order	84999	0.33575779393290356	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales	Order	1643682	0.0004524530221601432	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales	Order	204458	9.310940236228671e-05	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales	Order	186826	0.09430102699141606	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales	Order	80840	0.07106519283606862	HEALTY
+Bacteria|Bacteroidota|Cytophagia|Cytophagales	Order	768507	0.00012047351807442686	HEALTY
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales	Order	119069	2.56930033370764e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales	Order	1843488	0.11707221443821318	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales	Order	1385	0.0007391755945195685	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales	Order	85007	0.01593807692317068	HEALTY
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales	Order	213849	0.0007495202868149454	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales	Order	204455	6.109233431826525e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales	Order	186802	8.86462129920053	HEALTY
+Bacteria|Synergistota|Synergistia|Synergistales	Order	649776	0.0018283396751051424	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales	Order	356	0.00017671144978741448	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales	Order	91347	0.024969862994172358	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales	Order	213115	0.041284539196497695	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales	Order	85004	1.521367424620017	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales	Order	48461	0.07156567597888598	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales	Order	2037	0.006852400006338488	HEALTY
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales	Order	1643686	0.00018133476042238636	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	Family	2005525	0.41231840180396245	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae	Family	31977	0.2139801690145136	HEALTY
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae	Family	1843491	0.00027818825833002297	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae	Family	171550	0.8870999351598483	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae	Family	712	0.009907829101068988	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae	Family	2005519	0.04268203820817235	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae	Family	2810280	0.07936775378318571	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	Family	2005473	0.005100498378214524	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	Family	815	4.181854970461964	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae	Family	3047432	0.004771453406833104	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae	Family	1268	0.00033581765647607915	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	Family	135621	0.00014558408288597657	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	Family	33958	0.02224248426242417	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae	Family	119060	0.00033564552389160076	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae	Family	2810281	0.003560618503606128	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae	Family	85015	0.00012692002445629125	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae	Family	85026	7.806179926011635e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae	Family	85023	0.00019253500881521085	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	Family	2062	0.00010144381841612678	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae	Family	1643824	0.028556346094270126	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	Family	31957	0.0008345849650392725	HEALTY
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae	Family	2762318	6.767799405800683e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	Family	171552	0.5794870731684052	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae	Family	2805586	0.00010059248164577226	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae	Family	468	0.00021424059099194053	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae	Family	1643826	0.18127693758214167	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae	Family	85019	5.377117860785793e-05	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae	Family	2975441	6.563847955160764e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae	Family	3046368	0.0029209299840781446	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	Family	84107	0.30720144783863335	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	Family	128827	0.009873856183436365	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	Family	1903414	0.000337974682590865	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae	Family	85030	0.0004524530221601432	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae	Family	75682	0.006201686803506518	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae	Family	186803	4.561510863913243	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis	Family	543314	0.014591763018023937	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae	Family	80864	0.0007741854816225708	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae	Family	76892	9.310940236228671e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae	Family	186804	0.05439056435756896	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	Family	1300	0.06544919701234986	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae	Family	995019	0.06368803654749633	HEALTY
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae	Family	1853232	0.00012047351807442686	HEALTY
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae	Family	206349	2.56930033370764e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae	Family	909930	0.11707221443821318	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae	Family	41294	4.620705664152856e-05	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae	Family	90964	0.0007391755945195685	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae	Family	1762	0.015537029540548647	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae	Family	85025	6.0124544524995687e-05	HEALTY
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	Family	72294	0.0007495202868149454	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae	Family	31989	6.109233431826525e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	Family	216572	4.026485759694871	HEALTY
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae	Family	649777	0.0018283396751051424	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae	Family	119045	0.00013050439314588616	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae	Family	186806	0.14454260212931574	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae	Family	1653	0.0001622685571911515	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	Family	1853231	0.2219157449082923	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	Family	81852	0.006609345716642001	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	Family	543	0.02463188831158149	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae	Family	194924	0.041284539196497695	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae	Family	31953	1.521367424620017	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	Family	1647988	0.07156567597888598	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae	Family	31979	0.05540736269659887	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae	Family	2049	0.006852400006338488	HEALTY
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae	Family	143786	0.00018133476042238636	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	Genus	375288	0.41231840180396245	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Allocoprobacillus	Genus	3059504	0.0009133634472285939	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Turicimonas	Genus	1918598	0.0010911923507947532	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Agathobaculum	Genus	2048137	0.009380432406964788	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	Genus	816	2.513953395888478	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	Genus	29465	0.01364120597526245	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	Genus	906	0.14439499642916304	HEALTY
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	Genus	158846	0.00027818825833002297	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	Genus	239759	0.8870999351598483	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae|Haemophilus	Genus	724	0.009907829101068988	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	Genus	397864	0.02369139315268779	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Faecalibacillus	Genus	2678885	0.04389152995862979	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Sodaliphilus	Genus	2815786	0.00277953577547421	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	Genus	547	0.003662773222993793	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	Genus	909656	1.6679015745734864	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerobutyricum	Genus	2569097	0.2161751692473086	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae|Maliibacterium	Genus	3047433	0.004771453406833104	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Microlunatus	Genus	29404	7.622711100518206e-05	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactiplantibacillus	Genus	2767842	0.0001997462600019518	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria	Genus	57493	0.00011643724756011552	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	Genus	286	0.00014558408288597657	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruthenibacterium	Genus	1905344	0.03835587231818995	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	Genus	838	0.03418123277731767	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Ligilactobacillus	Genus	2767887	0.0021221067298348583	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Subdoligranulum	Genus	292632	0.09704991429212659	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia	Genus	48736	0.00033564552389160076	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas	Genus	2892396	0.0947055499805255	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Butyrivibrio	Genus	830	0.07333236023792619	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter	Genus	191303	0.003560618503606128	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Marvinbryantia	Genus	248744	0.012256526519520843	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium	Genus	1506553	0.05487200157822267	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella	Genus	577309	0.029525746973432722	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae|Friedmanniella	Genus	53387	0.00012692002445629125	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Propionibacterium	Genus	1743	0.0006448679307914149	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster	Genus	2719313	0.053196305290365786	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae|Gordonia	Genus	2053	7.806179926011635e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus	Genus	33042	0.26314919189058134	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Solibaculum	Genus	2842531	0.005574133594555455	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Phoenicibacter	Genus	1981050	0.0003329610242887421	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Sarcina	Genus	1266	0.00034459108111320724	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter	Genus	644652	0.015249621522859389	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium	Genus	33882	0.00010699919320093817	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia	Genus	572511	0.7895607902741614	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	Genus	1883	0.00010144381841612678	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Acutalibacter	Genus	1918385	0.007440714149498194	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus	Genus	1263	0.4136388271268465	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Moraxella	Genus	475	7.818584443666583e-05	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella	Genus	133925	0.01583735867272752	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter	Genus	1505652	0.0011991260972146047	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	Genus	1912216	0.00011348992324267537	HEALTY
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae|Epilithonimonas	Genus	2782229	6.767799405800683e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycolicibacterium	Genus	1866885	0.00012522536718800995	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella	Genus	2974251	0.5101990613169616	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae|Lawsonella	Genus	1847725	0.00010059248164577226	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Acinetobacter	Genus	469	0.0001360547465552748	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	Genus	84111	0.039994394711175295	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister	Genus	39948	0.055943966610087756	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae|Brevibacterium	Genus	1696	5.377117860785793e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Simiaoa	Genus	2944193	0.2891773577231535	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae|Caldimonas	Genus	196013	6.563847955160764e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae|Aristaeella	Genus	3046369	0.0029209299840781446	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Lawsonibacter	Genus	2172004	0.051460148897505345	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	Genus	102106	0.30720144783863335	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum	Genus	1918540	0.0023209626027403127	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Micrococcus	Genus	1269	5.54559288823912e-05	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Delftia	Genus	80865	9.096112695662438e-05	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Longicatena	Genus	1918536	0.00666095422286007	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae|Morganella	Genus	581	0.000337974682590865	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Pediococcus	Genus	1253	5.9618801827637e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter	Genus	88138	0.000131675935180381	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter	Genus	846	0.006201686803506518	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Agathobacter	Genus	1766253	1.0402104845645492	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Massilistercora	Genus	2717089	0.013641398853887257	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Variovorax	Genus	34072	0.0006190915828105151	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas	Genus	41275	9.310940236228671e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Sellimonas	Genus	1769710	0.031196136784763105	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	Genus	574697	0.08124445148531693	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter	Genus	1348911	0.018990645055484538	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Clostridioides	Genus	1870884	0.04146945872072084	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	Genus	1301	0.06544919701234986	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	Genus	40544	0.06107600426087735	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes	Genus	207244	0.2378215752348202	HEALTY
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae|Hymenobacter	Genus	89966	0.00012047351807442686	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium	Genus	135858	0.004529285151471657	HEALTY
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae|Hydrogenophilus	Genus	70774	2.56930033370764e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	Genus	904	0.06849297489130494	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella	Genus	2082587	0.008362183166622354	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium	Genus	374	4.620705664152856e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter	Genus	2316020	0.29163227514564516	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus	Genus	1279	0.0007391755945195685	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycobacterium	Genus	1763	0.015411804173360653	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae|Rhodococcus	Genus	1827	6.0124544524995687e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wansuia	Genus	2944198	0.011690303963217583	HEALTY
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	Genus	194	0.0007495202868149454	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wujia	Genus	2944152	0.09724379431196228	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	Genus	244127	0.02019777310711023	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	Genus	544	0.0008629152504554871	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae|Paracoccus	Genus	265	6.109233431826525e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	Genus	216851	3.0185111280279204	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia	Genus	447020	0.12569996032381836	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Aminipila	Genus	2060094	0.0009503641641366819	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter	Genus	459786	0.020895284520347158	HEALTY
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae|Cloacibacillus	Genus	508459	0.0018283396751051424	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium	Genus	407	0.00013050439314588616	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	Genus	1578	0.011225869734878897	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Thermophilibacter	Genus	2847307	0.0018880469568105646	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Acidovorax	Genus	12916	6.413277185543117e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea	Genus	189330	0.30440833978475534	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium	Genus	1730	0.08236634574482836	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium	Genus	1716	0.0001622685571911515	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Hungatella	Genus	1649459	0.017598241917431125	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	Genus	2742598	0.00804845185505695	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Flavonifractor	Genus	946234	0.14231100964991839	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter	Genus	1663	0.00016392448003357243	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	Genus	33024	0.04857923954690816	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pusillibacter	Genus	2892397	0.02536045363879103	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Actinomyces	Genus	1654	0.0002752520294589621	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnospira	Genus	28050	0.12544006691865525	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	Genus	283168	0.1406712934229753	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	Genus	1350	0.006609345716642001	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia	Genus	3025755	0.030946938673084234	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Monoglobus	Genus	2039302	0.006594544148566927	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Flintibacter	Genus	1918454	0.02084750911197597	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinimonas	Genus	1392389	0.022686529772603516	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parafannyhessea	Genus	2847312	0.00246875729810967	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	Genus	561	0.020106199838132246	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	Genus	872	0.041284539196497695	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	Genus	1678	1.521367424620017	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Duodenibacillus	Genus	1980697	0.0015208399358242683	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	Genus	239934	0.07156567597888598	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus	Genus	1860	0.00021100646915966673	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lacticaseibacillus	Genus	2759736	0.000586690880823912	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium	Genus	1485	0.03746452969805455	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus	Genus	38501	0.0001097706178200955	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia	Genus	2529408	0.006577147976879525	HEALTY
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae|Brachyspira	Genus	29521	0.00018133476042238636	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Pseudoprevotella	Genus	2884814	0.0011345218771239439	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Dysosmobacter	Genus	2591381	0.0750099738360058	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Amedibacterium	Genus	2749267	0.002299538513347711	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Hoylesella	Genus	2974257	0.0018521612453002902	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Claveliimonas	Genus	3076670	0.01573089232550659	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia	Genus	841	0.6544172921181255	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia	Genus	1501226	0.01172197953963349	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Xylanibacter	Genus	558436	0.002594348978269099	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinibacillus	Genus	1928820	0.01864221749990791	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microterricola	Genus	518733	8.553581561427279e-05	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|gordonii	Species	1302	0.0004953191001795693	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E13-17	Species	2913616	0.001573474482382336	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|distasonis	Species	823	0.1903011094706494	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|virosa	Species	544645	0.025264615715052043	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Allocoprobacillus|halotolerans	Species	2944914	0.0009133634472285939	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Turicimonas|muris	Species	1796652	0.0010911923507947532	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Agathobaculum|sp. NTUH-O15-33	Species	3079302	0.009380432406964788	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uniformis	Species	820	0.77552013348823	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E9-3	Species	2913621	0.0018023522218898413	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus|sp. DSM 44513	Species	1528104	9.33623103671317e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|parvula	Species	29466	0.0033394399661776887	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|massiliensis	Species	1232428	0.13783466636878597	HEALTY
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas|funiformis	Species	437897	0.00027818825833002297	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|sp. SC05B48	Species	2479767	0.10142138450580859	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|faecalis	Species	2584944	0.0013415287989419922	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|bovis	Species	2564099	0.02675085164088051	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|faecalis	Species	2093856	0.007599255833951678	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|onderdonkii	Species	328813	0.21488980769989977	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae|Haemophilus|parainfluenzae	Species	729	0.009907829101068988	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|viscericola	Species	397865	0.02369139315268779	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|paravirosa	Species	1472417	0.01871675349166407	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|cohnii	Species	29382	6.149203461462261e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|granulosum	Species	33011	4.187205599700207e-05	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Faecalibacillus|intestinalis	Species	1982626	0.04389152995862979	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Sodaliphilus|pleomorphus	Species	2606626	0.00277953577547421	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|[Ruminococcus] lactaris	Species	46228	0.0565418504896771	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|coprophilus	Species	387090	0.11104442528188681	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|hormaechei	Species	158836	0.003662773222993793	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|vulgatus	Species	821	1.1837885405097521	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerobutyricum|hallii	Species	39488	0.2161751692473086	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria|palustris	Species	71999	7.230380394880183e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae|Maliibacterium|massiliense	Species	2086585	0.004771453406833104	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I3-3-89	Species	2929493	0.07943471020699792	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Microlunatus|sagamiharensis	Species	546874	7.622711100518206e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|faecium	Species	2715212	0.008482379047711732	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactiplantibacillus|pentosus	Species	1589	0.0001997462600019518	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. IP-3-29	Species	2929489	0.13334577048284965	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. HTF-F	Species	2929491	0.17490013711830177	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria|rhizophila	Species	72000	4.413344361131365e-05	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|viridiflava	Species	33069	0.00014558408288597657	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruthenibacterium|lactatiformans	Species	1550024	0.03835587231818995	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|melaninogenica	Species	28132	0.0038325492136252145	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|callanderi	Species	53442	0.008909821240620784	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|asparagiformis	Species	333367	0.016323771272777305	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|hansenii	Species	1322	0.009994975220348553	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|zhangwenhongii	Species	2650157	0.01694059990592888	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|intestinalis	Species	329854	0.05441823633341982	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Ligilactobacillus|ruminis	Species	1623	0.0021221067298348583	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Subdoligranulum|variabile	Species	214851	0.09704991429212659	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|sp. ART55/1	Species	751585	0.037758291833242544	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|pickettii	Species	329	0.00010482211728836344	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas|coprocola	Species	2714355	0.05871927945058088	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Butyrivibrio|crossotus	Species	45851	0.07333236023792619	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|duncaniae	Species	411483	0.25416587684871295	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. HF-162	Species	2785531	0.011081273723548946	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|intermedia	Species	28131	0.002546942416765479	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter|bilis	Species	2735723	0.0027130388544525843	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|kefirresidentii	Species	1979527	6.033889528167281e-06	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|nordii	Species	291645	0.008835826434975883	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Marvinbryantia|formatexigens	Species	168384	0.012256526519520843	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella|uli	Species	133926	0.0012020394053767214	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas|fastidiosa	Species	2714353	0.03598627052994456	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|rogosae	Species	423477	0.005547532207471236	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter|secundus	Species	1501392	0.007858187879993721	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|[Clostridium] scindens	Species	29347	0.03596327254838936	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|eutactus	Species	33043	0.03903547864728325	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|clara	Species	454154	0.01538445483462411	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae|Friedmanniella|luteola	Species	546871	0.00012692002445629125	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Propionibacterium|freudenreichii	Species	1744	0.0006448679307914149	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|massiliensis	Species	2927224	8.43180532587225e-05	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium|sp. co_0103	Species	2478954	0.0018246408189573407	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|sp. S12025-13	Species	2682455	0.0010117141546644643	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|bolteae	Species	208479	0.022432154629592773	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae|Gordonia|terrae	Species	2055	7.806179926011635e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|comes	Species	410072	0.12866799710350255	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I4-3-84	Species	2929495	0.3129715787804078	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E15-22	Species	2937774	0.002273205202113087	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Solibaculum|mannosilyticum	Species	2780922	0.005574133594555455	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. SR1/5	Species	657323	0.08058046144757773	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Phoenicibacter|congonensis	Species	1944646	0.0003329610242887421	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Sarcina|sp. JB2	Species	2726954	0.00034459108111320724	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|producta	Species	33035	0.007196921019171701	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter|pamelaeae	Species	471189	0.00732575306654787	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium|oxydans	Species	82380	7.889256800071363e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. FMBCY1	Species	2831966	0.0010034200258339384	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|wexlerae	Species	418240	0.33534353254090765	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia|sp. HMT-172	Species	3059028	0.002298935793338922	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium|sp. FF17	Species	2984843	8.372962024471243e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|uncultured Alistipes sp.	Species	538949	0.08046172523174058	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|zoogleoformans	Species	28119	0.005622297623436408	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|sp. T12	Species	477697	0.00010144381841612678	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|sp. dk3624	Species	2662363	0.018753672675383158	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Acutalibacter|muris	Species	1796620	0.007440714149498194	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|bicirculans (ex Wegman et al. 2014)	Species	1160721	0.29494868491211335	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|helcogenes	Species	290053	0.010935056725371166	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Moraxella|osloensis	Species	34062	7.818584443666583e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|baratii	Species	1561	0.0008805237124069654	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|dentium	Species	1689	0.00368721320282046	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|finegoldii	Species	338188	0.04087322189552884	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella|timonensis	Species	1805478	0.014635319267350871	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter|mayombei	Species	1541	0.0008458679006478028	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|suis	Species	1307	0.0032833101858092658	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. IP-1-18	Species	2929488	0.04778357126792748	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|acnes	Species	1747	7.16178672456732e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|communis	Species	2585118	0.13512766753453193	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|jejuni	Species	1177574	0.001416830125361858	HEALTY
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae|Epilithonimonas|vandammei	Species	2487072	6.767799405800683e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|gnavus	Species	33038	0.0680783670123157	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|argi	Species	1912897	0.010566939615847487	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|durans	Species	53345	0.0001382884665028951	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|sp. CE17	Species	2724150	0.0008237841234865987	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|thetaiotaomicron	Species	818	0.1317435820466273	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycolicibacterium|neoaurum	Species	1795	0.00012522536718800995	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|succinatutens	Species	626940	0.0007193021505930868	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|copri	Species	165179	0.45784012506675903	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|breve	Species	1685	0.006723321136651433	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|fragilis	Species	817	0.07392180746967016	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|sp. YY7918	Species	502558	0.0030441114709147806	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae|Lawsonella|clevelandensis	Species	1528099	0.00010059248164577226	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|humanifaecis	Species	2792859	0.02268029207626748	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Acinetobacter|johnsonii	Species	40214	0.0001360547465552748	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|xylaniphila	Species	454155	0.01414129213880852	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|lenta	Species	84112	0.03695028324026051	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|succinatiphilus	Species	487173	0.030990961308516415	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae|Brevibacterium|sp. CS2	Species	2575923	5.377117860785793e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Simiaoa|sunii	Species	2763672	0.2891773577231535	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae|Caldimonas|Schlegelella aquatica	Species	376175	6.563847955160764e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae|Aristaeella|hokkaidonensis	Species	3046382	0.0029209299840781446	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas|sp. PAMC22021	Species	2861285	3.291374849150149e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|sp. ATA002	Species	2991715	6.319263586157754e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Lawsonibacter|asaccharolyticus	Species	2108523	0.051460148897505345	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|spiroformis	Species	29348	0.003924731966951915	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|elsdenii	Species	907	0.00439665148462232	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. D2	Species	556259	0.011297485649555315	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter|urolithinfaciens	Species	1335613	0.007923868456311517	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|megaguti	Species	2364787	0.051900871040812174	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|aerofaciens	Species	74426	0.3042779750405455	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum|intestinale	Species	1796646	0.0023209626027403127	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I3-3-33	Species	2929492	0.09370483231728832	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|chauvoei	Species	46867	0.000665768910126652	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|angulatum	Species	1683	0.002144808461185736	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|indistinctus	Species	626932	0.013113456457112631	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|wenshanensis	Species	2842456	8.971601271771662e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Micrococcus|luteus	Species	1270	5.54559288823912e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|johnsonii	Species	387661	0.03133328157911937	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Delftia|acidovorans	Species	80866	9.096112695662438e-05	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Longicatena|caecimuris	Species	1796635	0.00666095422286007	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae|Morganella|morganii	Species	582	0.000337974682590865	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Pediococcus|pentosaceus	Species	1255	5.9618801827637e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter|marinus	Species	477641	6.0797685298975784e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	Species	162156	0.01685719478962512	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. FMB-CY1	Species	2878202	0.0012184144354261098	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|graminisolvens	Species	477666	0.0028939977592648807	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter|aliiformigenes	Species	2946593	0.0047694673669513386	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|merdae	Species	46503	0.16884811373363104	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|aureus	Species	1280	0.00025827841530898075	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|ilei	Species	1156431	0.0009902946321995135	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|pseudococcoides	Species	1796616	0.009871694180867563	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|avium	Species	33945	0.0001322423204548551	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Agathobacter|rectalis	Species	39491	1.0402104845645492	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Massilistercora|timonensis	Species	2086584	0.013641398853887257	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|faecis	Species	674529	0.08707170048959938	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Variovorax|paradoxus	Species	34073	0.0006190915828105151	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|xylanisolvens	Species	371601	0.12244297416509159	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas|albigilva	Species	1312364	6.019565387078524e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Sellimonas|intestinalis	Species	1653434	0.031196136784763105	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|faecihominis	Species	1472416	0.02966382644464922	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|senegalensis	Species	1288121	0.050735894516126	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter|fastidiosus	Species	1099853	0.01113245717549083	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|perfringens	Species	1502	0.0030862295693176375	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Clostridioides|difficile	Species	1496	0.04146945872072084	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|shahii	Species	328814	0.14922034025233102	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|isatidis	Species	182773	0.00069175807009619	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|corporis	Species	28128	0.0016085248891001495	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|phocaeense	Species	1871021	0.009715865539064379	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|salivarius	Species	1304	0.02820104831567051	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|heparinolyticus	Species	28113	0.0059713909517406984	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|wadsworthensis	Species	40545	0.058510082586655146	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|hominis	Species	1290	0.00013497417907851365	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|sp. C1	Species	1155388	0.0019026989340658802	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|atypica	Species	39777	0.0010173474850294958	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes|hadrus	Species	649756	0.23315709564599085	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|dorei	Species	357276	0.34742893503885114	HEALTY
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae|Hymenobacter|sp. BRD128	Species	2675878	0.00012047351807442686	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium|mitsuokai	Species	100886	0.0027046443325143125	HEALTY
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae|Hydrogenophilus|thermoluteolus	Species	297	2.56930033370764e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|ihumii	Species	1470347	0.027070007793987647	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|chongii	Species	2685834	0.0028020586646262937	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|denticola	Species	28129	0.0017739467304626352	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|hominis	Species	2582419	0.01222062960438502	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|intestini	Species	187327	0.06849297489130494	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. M10	Species	2763022	0.016833977258480803	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella|catena	Species	2003188	0.006578625545719909	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus|sp. PRF04-17	Species	2933797	5.953307392002949e-05	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium|sp. BTAi1	Species	288000	4.620705664152856e-05	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia|equolifaciens	Species	446660	0.05133341252215421	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|[Ruminococcus] torques	Species	33039	0.1670120576436524	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. CACC 737	Species	2755405	0.02185806684508197	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|bivia	Species	28125	0.004786783390760569	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|epidermidis	Species	1282	0.0001716492726241485	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycobacterium|canettii	Species	78331	0.015411804173360653	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	Species	89153	0.009192863490768975	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae|Rhodococcus|globerulus	Species	33008	6.0124544524995687e-05	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|megalosphaeroides	Species	2494234	0.0012243928752801796	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter|sp. L9-4	Species	2851567	7.087824988140522e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|clostridioformis	Species	1531	0.014440379387995698	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wansuia|hejianensis	Species	2763667	0.011690303963217583	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|mannitolilytica	Species	105219	0.00014110739388552062	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|parasanguinis	Species	1318	0.0024081624252216497	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|septicum	Species	1504	0.0007381586416237103	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E2-28	Species	2913620	0.002444971216001571	HEALTY
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|jejuni	Species	197	0.0007495202868149454	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wujia|chipingensis	Species	2763670	0.09724379431196228	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus|colihominis	Species	169435	0.02019777310711023	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|freundii	Species	546	0.0007685152570436984	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|parvula	Species	2877527	0.00920085259116749	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella|massiliensis	Species	1871022	0.0017835576209024506	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I4-1-79	Species	2929494	0.137778276146011	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae|Paracoccus|marcusii	Species	59779	6.109233431826525e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|prausnitzii	Species	853	1.6683542165993042	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia|hattorii	Species	2707299	0.07436654780166418	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Aminipila|luticellarii	Species	2507160	0.0009503641641366819	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|liquoris	Species	2779518	0.005542801867888545	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter|hominis	Species	2763056	0.020895284520347158	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|oris	Species	28135	0.0014393416234826928	HEALTY
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae|Cloacibacillus|porcorum	Species	1197717	0.0018283396751051424	HEALTY
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium|sp. WL1	Species	2603276	4.677477290117357e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|dispar	Species	39778	0.0009358868341312921	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|amylovorus	Species	1604	0.010686488816667696	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|vestibularis	Species	1343	0.0005180384832914578	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Thermophilibacter|immobilis	Species	2779519	0.0018880469568105646	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|faecalis	Species	1351	0.001008610253793532	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|crispatus	Species	47770	0.00034669745361562426	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter|formigenes	Species	847	0.0014322194365551846	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Acidovorax|temperans	Species	80878	6.413277185543117e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|salanitronis	Species	376805	0.025639673742995202	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|bifidum	Species	1681	0.1553032293815493	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea|longicatena	Species	88431	0.25039227896242006	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|condimenti	Species	70255	4.678493129170279e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes|caccae	Species	105841	0.00466447958882932	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|ventriosum	Species	39496	0.06217001300302706	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|massiliensis	Species	2161821	0.01273237569718641	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|gasseri	Species	1596	0.00019268346459559816	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|portucalensis	Species	1639133	9.290580298146494e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|tuberculostearicum	Species	38304	9.50764381268092e-05	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|pseudolongum	Species	1694	0.0006970412801107247	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I2-3-92	Species	2929490	0.11607215826011603	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|hominis	Species	2518605	0.05091959462671811	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|stercoris	Species	147206	0.00292347279808793	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Hungatella|hathewayi	Species	154046	0.017598241917431125	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|hominis	Species	301301	0.1288902450621445	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|ovatus	Species	28116	0.16992429898635752	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|mucosae	Species	97478	0.00804845185505695	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Flavonifractor|plautii	Species	292800	0.14231100964991839	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|finegoldii	Species	214856	0.08563457181877032	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|sp. zg-Y820	Species	2894192	5.287725841452522e-05	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|faecium	Species	33025	0.04703942886071758	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|sp. RHB36-C18	Species	2742627	1.4941904303237e-06	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|pseudocatenulatum	Species	28026	0.042884476393449895	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|rectibacter	Species	2763062	0.03416181518857397	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|nakazawae	Species	2682456	0.0017892853277882714	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|sp. MSJ-33	Species	2841528	0.011286511501180516	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pusillibacter|faecalis	Species	2714358	0.02536045363879103	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Actinomyces|oris	Species	544580	0.0002752520294589621	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|gasigenes	Species	94869	0.0005641622940632061	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|longum	Species	216816	0.5039193101565077	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|amycolatum	Species	43765	6.115822953617509e-05	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|botulinum	Species	1491	0.001641839935708279	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnospira|eligens	Species	39485	0.12544006691865525	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|sp. 13368	Species	2708053	0.0017434331101009047	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|mitis	Species	28037	0.001040291646995263	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|splanchnicus	Species	28118	0.1406712934229753	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea|formicigenerans	Species	39486	0.05401606082233512	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|fairfieldensis	Species	44742	0.030932945843266085	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. DH3716P	Species	2847299	0.007266898598714823	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|faecium	Species	1352	0.005330204675890721	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|luti	Species	89014	0.06357975243381479	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. Rep29	Species	2691580	0.0018484554697593498	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|[Clostridium] innocuum	Species	1522	0.01458944708518022	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Monoglobus|pectinilyticus	Species	1981510	0.006594544148566927	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|herbatica	Species	2801997	0.001028351721579376	HEALTY
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|sp. Marseille-Q4147	Species	2823317	0.000820508535597438	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|champanellensis	Species	1161942	0.00913699466501469	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter|hibernicus	Species	2813371	0.00035325819656680045	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Flintibacter|sp. KGMB00164	Species	2610895	0.02084750911197597	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|obeum	Species	40520	0.2147311298402041	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinimonas|butyriciproducens	Species	1297617	0.022686529772603516	HEALTY
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parafannyhessea|umbonata	Species	604330	0.00246875729810967	HEALTY
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|coli	Species	562	0.020106199838132246	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|dispar	Species	2585119	0.06019192013915371	HEALTY
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|piger	Species	901	0.010351593353231535	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|adolescentis	Species	1680	0.651230402133786	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|salyersiae	Species	291644	0.04281511893670871	HEALTY
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Duodenibacillus|massiliensis	Species	1852381	0.0015208399358242683	HEALTY
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|capitis	Species	29388	6.599676160160013e-05	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|muciniphila	Species	239935	0.0714813579256272	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus|obscurus	Species	1861	0.0001176441587925351	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lacticaseibacillus|paracasei	Species	1597	0.000586690880823912	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|sp. M62/1	Species	411486	0.02729338963064603	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|catenulatum	Species	1686	0.15477762247395685	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|ramosa	Species	1547	0.012432759620952118	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus|saxobsidens	Species	138336	5.0237543900065984e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|stercoris	Species	46506	0.2603833175976177	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia|odontolytica	Species	1660	0.0042782121835406	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|caccae	Species	47678	0.14757782298685634	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|eggerthii	Species	28111	0.2508528259078138	HEALTY
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|hexanoica	Species	1675036	0.0021636785757545057	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|catus	Species	116085	0.057687424306553006	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|cellulosilyticus	Species	246787	0.14798144051497122	HEALTY
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae|Brachyspira|pilosicoli	Species	52584	0.00018133476042238636	HEALTY
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|thermophilus	Species	1308	0.02851273222298261	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Pseudoprevotella|muciniphila	Species	2133944	0.0011345218771239439	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|communis	Species	2913614	0.0031760878623604306	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter|sanguinis	Species	154288	0.0008475796491535366	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium|sp. BH-3-3-3	Species	1906742	2.810662520022458e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. A1C1	Species	2528203	0.023470221770836946	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|dentalis	Species	52227	0.002978384619123519	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Dysosmobacter|welbionis	Species	2093857	0.0750099738360058	HEALTY
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Amedibacterium|intestinale	Species	2583452	0.002299538513347711	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Hoylesella|buccalis	Species	28127	0.0018521612453002902	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Claveliimonas|bilis	Species	3028070	0.01573089232550659	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|luhongzhouii	Species	2650158	0.006775061088831063	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|intestinalis	Species	166486	0.4913652318674065	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|ilealis	Species	1115758	0.009154762306045984	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Xylanibacter|ruminicola	Species	839	0.002594348978269099	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. ZJ-18	Species	2709390	0.00021785458182467282	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinibacillus|sp. NTUH-41-i26	Species	3079303	0.01864221749990791	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|caecimuris	Species	1796613	0.010407040238787245	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|jiangjiafuii	Species	2817475	4.785458575746955e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. oral taxon 475	Species	712471	0.0010903732160322307	HEALTY
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|hydrogenotrophica	Species	53443	0.022110806458134617	HEALTY
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microterricola|viridarii	Species	412690	8.553581561427279e-05	HEALTY
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|goldsteinii	Species	328812	0.01903383835593648	HEALTY
+Bacteria|Verrucomicrobiota|Verrucomicrobiae	Class	203494	0.07156567597888598	HEALTY

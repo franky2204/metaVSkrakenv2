@@ -1,0 +1,604 @@
+Bacteria	Kingdom	2	58.0	MS
+Bacteria|Bacteroidota	Phylum	976	19.878830993626572	MS
+Bacteria|Pseudomonadota	Phylum	1224	0.5894782990715317	MS
+Bacteria|Campylobacterota	Phylum	29547	0.0048878078241106045	MS
+Bacteria|Bacillota	Phylum	1239	28.87916025742894	MS
+Bacteria|Synergistota	Phylum	508458	0.00902514500001414	MS
+Bacteria|Thermodesulfobacteriota	Phylum	200940	0.04833937709007387	MS
+Bacteria|Actinomycetota	Phylum	201174	8.091405393657611	MS
+Bacteria|Verrucomicrobiota	Phylum	74201	0.49662398567537025	MS
+Bacteria|Spirochaetota	Phylum	203691	0.002248740625779078	MS
+Bacteria|Bacillota|Erysipelotrichia	Class	526524	0.5993702762962544	MS
+Bacteria|Bacteroidota|Bacteroidia	Class	200643	19.878295069819654	MS
+Bacteria|Bacteroidota|Flavobacteriia	Class	117743	0.0001532321350374485	MS
+Bacteria|Actinomycetota|Coriobacteriia	Class	84998	2.9205811127977754	MS
+Bacteria|Bacillota|Bacilli	Class	91061	0.5289295489004007	MS
+Bacteria|Pseudomonadota|Betaproteobacteria	Class	28216	0.27641862857341	MS
+Bacteria|Bacteroidota|Cytophagia	Class	768503	0.0003826916718726484	MS
+Bacteria|Pseudomonadota|Hydrogenophilia	Class	2008785	8.285836217363505e-05	MS
+Bacteria|Bacillota|Negativicutes	Class	909932	0.6352136889200235	MS
+Bacteria|Campylobacterota|Epsilonproteobacteria	Class	3031852	0.0048878078241106045	MS
+Bacteria|Bacillota|Clostridia	Class	186801	27.115646743312265	MS
+Bacteria|Synergistota|Synergistia	Class	649775	0.00902514500001414	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria	Class	28211	0.001143353052953766	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria	Class	1236	0.31183345908299387	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia	Class	3031449	0.04833937709007387	MS
+Bacteria|Actinomycetota|Actinomycetes	Class	1760	5.170824280859839	MS
+Bacteria|Spirochaetota|Spirochaetia	Class	203692	0.002248740625779078	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales	Order	1843489	0.32704124701856924	MS
+Bacteria|Bacillota|Negativicutes|Selenomonadales	Order	909929	0.004306012843471814	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales	Order	135625	0.07034794747712766	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales	Order	526525	0.5993702762962544	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales	Order	171549	19.878295069819654	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales	Order	85006	0.0023471825328250737	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales	Order	72274	0.000381141830607271	MS
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales	Order	85011	0.0003261183809243603	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales	Order	85009	0.0033588467446436492	MS
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales	Order	200644	0.0001532321350374485	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales	Order	2887326	0.0005943135661724947	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales	Order	1643822	0.46080848059644874	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales	Order	84999	2.4597726322013247	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales	Order	1643682	0.0014813638065788544	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales	Order	204458	0.0003631791554654739	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales	Order	186826	0.5179730256942464	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales	Order	80840	0.27641862857341	MS
+Bacteria|Bacteroidota|Cytophagia|Cytophagales	Order	768507	0.0003826916718726484	MS
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales	Order	119069	8.285836217363505e-05	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales	Order	1843488	0.3038664290579821	MS
+Bacteria|Bacillota|Bacilli|Bacillales	Order	1385	0.010956523206153881	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales	Order	85007	0.05406440332207613	MS
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales	Order	213849	0.0048878078241106045	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales	Order	204455	0.0001604857629660172	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales	Order	186802	27.115646743312265	MS
+Bacteria|Synergistota|Synergistia|Synergistales	Order	649776	0.00902514500001414	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales	Order	356	0.0006196881345222751	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales	Order	91347	0.24051005620908616	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales	Order	213115	0.04833937709007387	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales	Order	85004	5.0703828501811685	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales	Order	48461	0.49662398567537025	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales	Order	2037	0.038863515891618634	MS
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales	Order	1643686	0.002248740625779078	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae	Family	2005525	1.0554933305452774	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae	Family	31977	0.32704124701856924	MS
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae	Family	1843491	0.004306012843471814	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae	Family	171550	2.014266419855495	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae	Family	712	0.07034794747712766	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae	Family	2005519	0.12151577079075605	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae	Family	2810280	0.5307900688024314	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae	Family	2005473	0.014331939667623894	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae	Family	815	13.554615175950868	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae	Family	3047432	0.018915022081754492	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae	Family	1268	0.0012443097949001467	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	Family	135621	0.000381141830607271	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae	Family	33958	0.08308304967941543	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae	Family	119060	0.0008914114954738802	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae	Family	2810281	0.030646555901455107	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae	Family	85015	0.0003331828058609521	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae	Family	85026	0.00025703933379130767	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae	Family	85023	0.0008779128746202216	MS
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae	Family	2062	0.0003261183809243603	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae	Family	1643824	0.10467183213625811	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae	Family	31957	0.003025663938782701	MS
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae	Family	2762318	0.0001532321350374485	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae	Family	171552	2.5127295911835748	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae	Family	2805586	0.000840233975833442	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae	Family	468	0.0005943135661724947	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae	Family	1643826	0.46080848059644874	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae	Family	85019	0.00022495986330470536	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae	Family	2975441	0.0003107628744696616	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae	Family	3046368	0.008866814098962752	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae	Family	84107	2.3551008000650677	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae	Family	128827	0.03793365159236788	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae	Family	1903414	0.0032273759686481615	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae	Family	85030	0.0014813638065788544	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae	Family	75682	0.009452980206613617	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae	Family	186803	15.518007280051398	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis	Family	543314	0.05130982221582531	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae	Family	80864	0.0024520295830545427	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae	Family	76892	0.0003631791554654739	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae	Family	186804	0.27100369116121853	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae	Family	1300	0.3261346901514913	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae	Family	995019	0.26331144441379845	MS
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae	Family	1853232	0.0003826916718726484	MS
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae	Family	206349	8.285836217363505e-05	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae	Family	909930	0.3038664290579821	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae	Family	41294	0.0002226961264450893	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae	Family	90964	0.010956523206153881	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae	Family	1762	0.05220643952130524	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae	Family	85025	0.00016283584656534596	MS
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae	Family	72294	0.0048878078241106045	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae	Family	31989	0.0001604857629660172	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae	Family	216572	10.562148542751217	MS
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae	Family	649777	0.00902514500001414	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae	Family	119045	0.00039699200807718577	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae	Family	186806	0.41147709437765506	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae	Family	1653	0.0005978546445807523	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae	Family	1853231	0.6053428418260537	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae	Family	81852	0.10875528586333993	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	Family	543	0.23728268024043822	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae	Family	194924	0.04833937709007387	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae	Family	31953	5.0703828501811685	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae	Family	1647988	0.49662398567537025	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae	Family	31979	0.27391847657423507	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae	Family	2049	0.038863515891618634	MS
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae	Family	143786	0.002248740625779078	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides	Genus	375288	1.0554933305452774	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Allocoprobacillus	Genus	3059504	0.00612177778084983	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Turicimonas	Genus	1918598	0.0053600122015472415	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Agathobaculum	Genus	2048137	0.025330554714872732	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides	Genus	816	7.589444323134208	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella	Genus	29465	0.0604111340312375	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera	Genus	906	0.10871993196553241	MS
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas	Genus	158846	0.004306012843471814	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes	Genus	239759	2.014266419855495	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae|Haemophilus	Genus	724	0.07034794747712766	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella	Genus	397864	0.05566251128204356	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Faecalibacillus	Genus	2678885	0.1327743710742805	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Sodaliphilus	Genus	2815786	0.0076725379619999885	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter	Genus	547	0.0016691158513363984	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola	Genus	909656	5.965170852816666	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerobutyricum	Genus	2569097	0.8347520293934604	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae|Maliibacterium	Genus	3047433	0.018915022081754492	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Microlunatus	Genus	29404	0.0003062151469034745	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactiplantibacillus	Genus	2767842	0.0004391155902203733	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria	Genus	57493	0.0004296990142183473	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	Genus	286	0.000381141830607271	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruthenibacterium	Genus	1905344	0.35015578815489634	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella	Genus	838	0.10139058555673303	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Ligilactobacillus	Genus	2767887	0.046325990734067894	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Subdoligranulum	Genus	292632	0.3109103818990237	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia	Genus	48736	0.0008914114954738802	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas	Genus	2892396	0.45914522190006385	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Butyrivibrio	Genus	830	0.06505742592050232	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter	Genus	191303	0.030646555901455107	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Marvinbryantia	Genus	248744	0.03957358789414709	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium	Genus	1506553	0.25665575585042394	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella	Genus	577309	0.12500291368197397	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae|Friedmanniella	Genus	53387	0.0003331828058609521	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Propionibacterium	Genus	1743	0.0023068324846197293	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster	Genus	2719313	0.24548487453524037	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae|Gordonia	Genus	2053	0.00025703933379130767	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus	Genus	33042	1.194002360224999	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Solibaculum	Genus	2842531	0.01840710126575773	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Phoenicibacter	Genus	1981050	0.002383859033467077	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Sarcina	Genus	1266	0.0054793357269653994	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter	Genus	644652	0.07952042106402639	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium	Genus	33882	0.00045852221042075157	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia	Genus	572511	4.056982320441437	MS
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces	Genus	1883	0.0003261183809243603	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Acutalibacter	Genus	1918385	0.021207277752362353	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus	Genus	1263	1.142970120199869	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Moraxella	Genus	475	0.00020887823003827946	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella	Genus	133925	0.05383802101372842	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter	Genus	1505652	0.018805216635885712	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium	Genus	1912216	0.00041261630725949647	MS
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae|Epilithonimonas	Genus	2782229	0.0001532321350374485	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycolicibacterium	Genus	1866885	0.0004164606822490914	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella	Genus	2974251	2.2650738582944143	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae|Lawsonella	Genus	1847725	0.000840233975833442	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Acinetobacter	Genus	469	0.0003854353361342151	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella	Genus	84111	0.20217252943268657	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister	Genus	39948	0.15791018102179952	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae|Brevibacterium	Genus	1696	0.00022495986330470536	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Simiaoa	Genus	2944193	0.46181650468196284	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae|Caldimonas	Genus	196013	0.0003107628744696616	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae|Aristaeella	Genus	3046369	0.008866814098962752	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Lawsonibacter	Genus	2172004	0.11822470072738005	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella	Genus	102106	2.3551008000650677	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum	Genus	1918540	0.006659401705623901	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Micrococcus	Genus	1269	0.00033254164145559963	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Delftia	Genus	80865	0.0002750241369085967	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Longicatena	Genus	1918536	0.01926262895798589	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae|Morganella	Genus	581	0.0032273759686481615	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Pediococcus	Genus	1253	0.002562126840355691	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter	Genus	88138	0.0004359664542514523	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter	Genus	846	0.009452980206613617	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Agathobacter	Genus	1766253	2.510902702033772	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Massilistercora	Genus	2717089	0.046975390015505464	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Variovorax	Genus	34072	0.0020201687427161353	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas	Genus	41275	0.0003631791554654739	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Sellimonas	Genus	1769710	0.08231171153819436	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas	Genus	574697	0.2279137803746002	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter	Genus	1348911	0.06585325950871256	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Clostridioides	Genus	1870884	0.1199787434153903	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus	Genus	1301	0.3261346901514913	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella	Genus	40544	0.22957356794543698	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes	Genus	207244	0.9657453780028835	MS
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae|Hymenobacter	Genus	89966	0.0003826916718726484	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium	Genus	135858	0.17719398125210944	MS
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae|Hydrogenophilus	Genus	70774	8.285836217363505e-05	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus	Genus	904	0.1675253154493018	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella	Genus	2082587	0.027216304479316885	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium	Genus	374	0.0002226961264450893	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter	Genus	2316020	1.4013126322301048	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus	Genus	1279	0.010956523206153881	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycobacterium	Genus	1763	0.05178997883905622	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae|Rhodococcus	Genus	1827	0.00016283584656534596	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wansuia	Genus	2944198	0.04155216038530284	MS
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter	Genus	194	0.0048878078241106045	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wujia	Genus	2944152	0.17168997053825732	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus	Genus	244127	0.0701633346839578	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter	Genus	544	0.009070374037433137	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae|Paracoccus	Genus	265	0.0001604857629660172	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium	Genus	216851	7.278747817348272	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia	Genus	447020	0.1767316710662692	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Aminipila	Genus	2060094	0.004334432200319817	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter	Genus	459786	0.06914902761781228	MS
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae|Cloacibacillus	Genus	508459	0.00902514500001414	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium	Genus	407	0.00039699200807718577	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus	Genus	1578	0.004663475363581234	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Thermophilibacter	Genus	2847307	0.011896108106018335	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Acidovorax	Genus	12916	0.00015683670342981213	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea	Genus	189330	1.1843808091128716	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium	Genus	1730	0.22902571334890565	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium	Genus	1716	0.0005978546445807523	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Hungatella	Genus	1649459	0.10361283398347573	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus	Genus	2742598	0.022166655714809608	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Flavonifractor	Genus	946234	0.33757278715438765	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter	Genus	1663	0.0004820691392261997	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium	Genus	33024	0.13634111360868054	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pusillibacter	Genus	2892397	0.07516391471617698	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Actinomyces	Genus	1654	0.005592387527730884	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnospira	Genus	28050	0.40775693041731315	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter	Genus	283168	0.37742906145145383	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus	Genus	1350	0.10875528586333993	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia	Genus	3025755	0.22082171647604182	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Monoglobus	Genus	2039302	0.017161796567804453	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Flintibacter	Genus	1918454	0.05030669790441847	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinimonas	Genus	1392389	0.08479223387694457	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parafannyhessea	Genus	2847312	0.011721398537194625	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	Genus	561	0.22654319035166876	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio	Genus	872	0.04833937709007387	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium	Genus	1678	5.0703828501811685	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Duodenibacillus	Genus	1980697	0.02837786426681423	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia	Genus	239934	0.49662398567537025	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus	Genus	1860	0.0006242845883418164	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lacticaseibacillus	Genus	2759736	0.006925685436380725	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium	Genus	1485	0.16482630686379388	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus	Genus	38501	0.0004211127639855862	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia	Genus	2529408	0.03327112836388777	MS
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae|Brachyspira	Genus	29521	0.002248740625779078	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Pseudoprevotella	Genus	2884814	0.00631327504572634	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Dysosmobacter	Genus	2591381	0.26783871804857423	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Amedibacterium	Genus	2749267	0.012549244853532166	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Hoylesella	Genus	2974257	0.006662022735497348	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Claveliimonas	Genus	3076670	0.07162438744974543	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia	Genus	841	1.5264057394007786	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia	Genus	1501226	0.13221973110994245	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Xylanibacter	Genus	558436	0.008286935869232789	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinibacillus	Genus	1928820	0.04735244924738622	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microterricola	Genus	518733	0.00041939066419947017	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|gordonii	Species	1302	0.004910090072170342	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E13-17	Species	2913616	0.00570816893182353	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|distasonis	Species	823	0.577621450651875	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|virosa	Species	544645	0.05739568580932815	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Allocoprobacillus|halotolerans	Species	2944914	0.00612177778084983	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Turicimonas|muris	Species	1796652	0.0053600122015472415	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Agathobaculum|sp. NTUH-O15-33	Species	3079302	0.025330554714872732	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uniformis	Species	820	2.3299866299745813	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E9-3	Species	2913621	0.006525052476731031	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus|sp. DSM 44513	Species	1528104	0.00028800118049385843	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|parvula	Species	29466	0.025526932517203966	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|massiliensis	Species	1232428	0.06591066043336345	MS
+Bacteria|Bacillota|Negativicutes|Selenomonadales|Selenomonadaceae|Megamonas|funiformis	Species	437897	0.004306012843471814	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|sp. SC05B48	Species	2479767	0.39681355938266455	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|faecalis	Species	2584944	0.02678740779739636	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|bovis	Species	2564099	0.03716191153629742	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|faecalis	Species	2093856	0.022537880114850282	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|onderdonkii	Species	328813	0.6815895478294811	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pasteurellales|Pasteurellaceae|Haemophilus|parainfluenzae	Species	729	0.07034794747712766	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Barnesiella|viscericola	Species	397865	0.05566251128204356	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|paravirosa	Species	1472417	0.06905097058365807	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|cohnii	Species	29382	0.005871775353890316	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|granulosum	Species	33011	0.0001570095111301675	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Faecalibacillus|intestinalis	Species	1982626	0.1327743710742805	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Sodaliphilus|pleomorphus	Species	2606626	0.0076725379619999885	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|[Ruminococcus] lactaris	Species	46228	0.184594625775244	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|coprophilus	Species	387090	0.5922781108721833	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Enterobacter|hormaechei	Species	158836	0.0016691158513363984	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|vulgatus	Species	821	3.472873438991544	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerobutyricum|hallii	Species	39488	0.8347520293934604	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria|palustris	Species	71999	0.0002405057942084416	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Maliibacteriaceae|Maliibacterium|massiliense	Species	2086585	0.018915022081754492	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I3-3-89	Species	2929493	0.2430251977720832	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Microlunatus|sagamiharensis	Species	546874	0.0003062151469034745	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|faecium	Species	2715212	0.02626836687330723	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactiplantibacillus|pentosus	Species	1589	0.0004391155902203733	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. IP-3-29	Species	2929489	0.334999628388023	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. HTF-F	Species	2929491	0.45786196343096314	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Kocuria|rhizophila	Species	72000	0.0001891932200099057	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|viridiflava	Species	33069	0.000381141830607271	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruthenibacterium|lactatiformans	Species	1550024	0.35015578815489634	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|melaninogenica	Species	28132	0.011212438410208735	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|callanderi	Species	53442	0.049560200649116135	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|asparagiformis	Species	333367	0.07120412412499512	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|hansenii	Species	1322	0.03552948126697022	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|zhangwenhongii	Species	2650157	0.036107042469453426	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|intestinalis	Species	329854	0.07734795536066921	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Ligilactobacillus|ruminis	Species	1623	0.046325990734067894	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Subdoligranulum|variabile	Species	214851	0.3109103818990237	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|sp. ART55/1	Species	751585	0.3628158843278421	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|pickettii	Species	329	0.000275834224491873	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas|coprocola	Species	2714355	0.33147846252665847	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Butyrivibrio|crossotus	Species	45851	0.06505742592050232	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|duncaniae	Species	411483	0.5148430806328405	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. HF-162	Species	2785531	0.01711093678658508	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|intermedia	Species	28131	0.0098413950520974	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter|bilis	Species	2735723	0.019868224906538078	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|kefirresidentii	Species	1979527	2.856952934477228e-05	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|nordii	Species	291645	0.032639938036364086	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Marvinbryantia|formatexigens	Species	168384	0.03957358789414709	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella|uli	Species	133926	0.006313515443125291	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Vescimonas|fastidiosa	Species	2714353	0.1276667593734054	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|rogosae	Species	423477	0.010855531191695914	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter|secundus	Species	1501392	0.015358637836716708	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|[Clostridium] scindens	Species	29347	0.18081854843492073	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|eutactus	Species	33043	0.10179776856044545	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|clara	Species	454154	0.09487475596295554	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Nocardioidaceae|Friedmanniella|luteola	Species	546871	0.0003331828058609521	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Propionibacterium|freudenreichii	Species	1744	0.0023068324846197293	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|massiliensis	Species	2927224	0.030311448046851958	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium|sp. co_0103	Species	2478954	0.07858282134649847	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|sp. S12025-13	Species	2682455	0.0037168462100974336	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|bolteae	Species	208479	0.11050596147884209	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Gordoniaceae|Gordonia|terrae	Species	2055	0.00025703933379130767	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|comes	Species	410072	0.4965829366713117	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I4-3-84	Species	2929495	0.5862452914054518	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E15-22	Species	2937774	0.0047788277060710985	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Solibaculum|mannosilyticum	Species	2780922	0.01840710126575773	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. SR1/5	Species	657323	0.3796837832325879	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Phoenicibacter|congonensis	Species	1944646	0.002383859033467077	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Sarcina|sp. JB2	Species	2726954	0.0054793357269653994	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|producta	Species	33035	0.025011452020661473	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter|pamelaeae	Species	471189	0.04129004565848224	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium|oxydans	Species	82380	0.00027871397422178494	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. FMBCY1	Species	2831966	0.010219636825628944	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|wexlerae	Species	418240	1.7613187381530941	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia|sp. HMT-172	Species	3059028	0.01157286387512632	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium|sp. FF17	Species	2984843	0.00028216803276500074	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|uncultured Alistipes sp.	Species	538949	0.07326543928869272	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|zoogleoformans	Species	28119	0.014543766757200042	MS
+Bacteria|Actinomycetota|Actinomycetes|Kitasatosporales|Streptomycetaceae|Streptomyces|sp. T12	Species	477697	0.0003261183809243603	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|sp. dk3624	Species	2662363	0.015331667680869646	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Acutalibacter|muris	Species	1796620	0.021207277752362353	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|bicirculans (ex Wegman et al. 2014)	Species	1160721	0.6720890552196499	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|helcogenes	Species	290053	0.020717170052908452	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Moraxella|osloensis	Species	34062	0.00020887823003827946	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|baratii	Species	1561	0.005516535791754374	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|dentium	Species	1689	0.015248015006709532	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|finegoldii	Species	338188	0.11467938662941572	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Olsenella|timonensis	Species	1805478	0.04752450557060307	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter|mayombei	Species	1541	0.01359521131241316	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|suis	Species	1307	0.010281327763239935	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. IP-1-18	Species	2929488	0.14473373208292112	MS
+Bacteria|Actinomycetota|Actinomycetes|Propionibacteriales|Propionibacteriaceae|Cutibacterium|acnes	Species	1747	0.000255606796129329	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|communis	Species	2585118	0.23213151307046864	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|jejuni	Species	1177574	0.006054202212392059	MS
+Bacteria|Bacteroidota|Flavobacteriia|Flavobacteriales|Weeksellaceae|Epilithonimonas|vandammei	Species	2487072	0.0001532321350374485	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|gnavus	Species	33038	0.23677158085857808	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|argi	Species	1912897	0.039590148310499645	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|durans	Species	53345	0.02054389583113027	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|sp. CE17	Species	2724150	0.008482235225334226	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|thetaiotaomicron	Species	818	0.43855179098044506	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycolicibacterium|neoaurum	Species	1795	0.0004164606822490914	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|succinatutens	Species	626940	0.03570351003438116	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|copri	Species	165179	2.1498491207771573	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|breve	Species	1685	0.03020889762777121	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|fragilis	Species	817	0.410837321639986	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|sp. YY7918	Species	502558	0.009825809096585238	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Lawsonellaceae|Lawsonella|clevelandensis	Species	1528099	0.000840233975833442	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|humanifaecis	Species	2792859	0.03223180691768492	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Moraxellales|Moraxellaceae|Acinetobacter|johnsonii	Species	40214	0.0003854353361342151	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Paraprevotella|xylaniphila	Species	454155	0.03012815771901841	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Eggerthella|lenta	Species	84112	0.19234672033610126	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|succinatiphilus	Species	487173	0.07486859354459224	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Brevibacteriaceae|Brevibacterium|sp. CS2	Species	2575923	0.00022495986330470536	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Simiaoa|sunii	Species	2763672	0.46181650468196284	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sphaerotilaceae|Caldimonas|Schlegelella aquatica	Species	376175	0.0003107628744696616	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Aristaeellaceae|Aristaeella|hokkaidonensis	Species	3046382	0.008866814098962752	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas|sp. PAMC22021	Species	2861285	0.00013127895703989026	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|sp. ATA002	Species	2991715	0.00015563543008871721	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Lawsonibacter|asaccharolyticus	Species	2108523	0.11822470072738005	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|spiroformis	Species	29348	0.013466441504955263	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|elsdenii	Species	907	0.03477113183231099	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. D2	Species	556259	0.024527595541354322	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Gordonibacter|urolithinfaciens	Species	1335613	0.038230375405544165	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|megaguti	Species	2364787	0.047507369010930015	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|aerofaciens	Species	74426	2.3379125293978182	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Muribaculaceae|Muribaculum|intestinale	Species	1796646	0.006659401705623901	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I3-3-33	Species	2929492	0.2687700509260932	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|chauvoei	Species	46867	0.005021059226586116	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|angulatum	Species	1683	0.01720335253706953	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|indistinctus	Species	626932	0.08362567404382189	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|wenshanensis	Species	2842456	0.00024016390521951217	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Micrococcus|luteus	Species	1270	0.00033254164145559963	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|johnsonii	Species	387661	0.07730048827926089	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Delftia|acidovorans	Species	80866	0.0002750241369085967	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Longicatena|caecimuris	Species	1796635	0.01926262895798589	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Morganellaceae|Morganella|morganii	Species	582	0.0032273759686481615	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Pediococcus|pentosaceus	Species	1255	0.002562126840355691	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter|marinus	Species	477641	0.0001959453131470427	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|uncultured Bacteroides sp.	Species	162156	0.05702845391718274	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|sp. FMB-CY1	Species	2878202	0.01131142380374498	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|graminisolvens	Species	477666	0.008735003035974336	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter|aliiformigenes	Species	2946593	0.007359180611084282	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|merdae	Species	46503	0.35860900787594624	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|aureus	Species	1280	0.003664264549494457	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|ilei	Species	1156431	0.0035559865113169945	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|pseudococcoides	Species	1796616	0.034189406188660565	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|avium	Species	33945	0.002903652090260377	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Agathobacter|rectalis	Species	39491	2.510902702033772	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Massilistercora|timonensis	Species	2086584	0.046975390015505464	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|faecis	Species	674529	0.21954838308533442	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Variovorax|paradoxus	Species	34073	0.0020201687427161353	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|xylanisolvens	Species	371601	0.6419967649524116	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Brevundimonas|albigilva	Species	1312364	0.00023190019842558388	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Sellimonas|intestinalis	Species	1653434	0.08231171153819436	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Butyricimonas|faecihominis	Species	1472416	0.07892924386676374	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|senegalensis	Species	1288121	0.08985154873788226	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Barnesiellaceae|Coprobacter|fastidiosus	Species	1099853	0.05049462167199583	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|perfringens	Species	1502	0.01368031612216429	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Clostridioides|difficile	Species	1496	0.1199787434153903	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|shahii	Species	328814	0.38689950787445276	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|isatidis	Species	182773	0.004618731991947908	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|corporis	Species	28128	0.005279290025737702	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|phocaeense	Species	1871021	0.046464397745344145	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|salivarius	Species	1304	0.21341252484376008	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|heparinolyticus	Species	28113	0.014362076547775562	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|wadsworthensis	Species	40545	0.19204156948738269	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|hominis	Species	1290	0.00036363667442838014	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|sp. C1	Species	1155388	0.023959382437876382	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|atypica	Species	39777	0.005585281239528638	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes|hadrus	Species	649756	0.9497822792784282	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|dorei	Species	357276	1.796970916238171	MS
+Bacteria|Bacteroidota|Cytophagia|Cytophagales|Hymenobacteraceae|Hymenobacter|sp. BRD128	Species	2675878	0.0003826916718726484	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Catenibacterium|mitsuokai	Species	100886	0.09861115990561106	MS
+Bacteria|Pseudomonadota|Hydrogenophilia|Hydrogenophilales|Hydrogenophilaceae|Hydrogenophilus|thermoluteolus	Species	297	8.285836217363505e-05	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|ihumii	Species	1470347	0.11414894277268972	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|chongii	Species	2685834	0.012471920409766624	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|denticola	Species	28129	0.006989297559987716	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|hominis	Species	2582419	0.04368716421658622	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Acidaminococcus|intestini	Species	187327	0.1675253154493018	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. M10	Species	2763022	0.0343111159958506	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella|catena	Species	2003188	0.015937042828993837	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus|sp. PRF04-17	Species	2933797	0.00020610279602993077	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Nitrobacteraceae|Bradyrhizobium|sp. BTAi1	Species	288000	0.0002226961264450893	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia|equolifaciens	Species	446660	0.07362378844577004	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Mediterraneibacter|[Ruminococcus] torques	Species	33039	0.9799464255962824	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. CACC 737	Species	2755405	0.028890867201175407	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|bivia	Species	28125	0.004147394830886426	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|epidermidis	Species	1282	0.0006379267100206887	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Mycobacteriaceae|Mycobacterium|canettii	Species	78331	0.05178997883905622	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnoclostridium|[Clostridium] hylemonae	Species	89153	0.02937280967015911	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Nocardiaceae|Rhodococcus|globerulus	Species	33008	0.00016283584656534596	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Sutterella|megalosphaeroides	Species	2494234	0.0107445906606579	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Modestobacter|sp. L9-4	Species	2851567	0.00024002114110440958	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Enterocloster|clostridioformis	Species	1531	0.06377478893140322	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wansuia|hejianensis	Species	2763667	0.04155216038530284	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Ralstonia|mannitolilytica	Species	105219	0.000375413365762495	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|parasanguinis	Species	1318	0.027344647851306712	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|septicum	Species	1504	0.005628351667801424	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. E2-28	Species	2913620	0.004887041093144373	MS
+Bacteria|Campylobacterota|Epsilonproteobacteria|Campylobacterales|Campylobacteraceae|Campylobacter|jejuni	Species	197	0.0048878078241106045	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Wujia|chipingensis	Species	2763670	0.17168997053825732	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Anaerotruncus|colihominis	Species	169435	0.0701633346839578	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|freundii	Species	546	0.004671563998106714	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|parvula	Species	2877527	0.03861130122718685	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parolsenella|massiliensis	Species	1871022	0.011279261650323032	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I4-1-79	Species	2929494	0.364715106785576	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Rhodobacterales|Paracoccaceae|Paracoccus|marcusii	Species	59779	0.0001604857629660172	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|prausnitzii	Species	853	4.0936787551148965	MS
+Bacteria|Actinomycetota|Coriobacteriia|Eggerthellales|Eggerthellaceae|Adlercreutzia|hattorii	Species	2707299	0.10310788262049898	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriales Family XIII. Incertae Sedis|Aminipila|luticellarii	Species	2507160	0.004334432200319817	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|liquoris	Species	2779518	0.021334480361566842	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Oscillibacter|hominis	Species	2763056	0.06914902761781228	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|oris	Species	28135	0.0046141335130412565	MS
+Bacteria|Synergistota|Synergistia|Synergistales|Synergistaceae|Cloacibacillus|porcorum	Species	1197717	0.00902514500001414	MS
+Bacteria|Pseudomonadota|Alphaproteobacteria|Hyphomicrobiales|Methylobacteriaceae|Methylobacterium|sp. WL1	Species	2603276	0.00011482397531218489	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|dispar	Species	39778	0.008580309138254968	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|amylovorus	Species	1604	0.001705932892641723	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|vestibularis	Species	1343	0.007122359700898741	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Thermophilibacter|immobilis	Species	2779519	0.011896108106018335	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|faecalis	Species	1351	0.03454569508749436	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|crispatus	Species	47770	0.001006454660884002	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Oxalobacter|formigenes	Species	847	0.0020937995955293293	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Comamonadaceae|Acidovorax|temperans	Species	80878	0.00015683670342981213	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|salanitronis	Species	376805	0.10304838671476788	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|bifidum	Species	1681	0.3821512473151704	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea|longicatena	Species	88431	0.9706880601129501	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|condimenti	Species	70255	0.00014995256868878488	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Anaerostipes|caccae	Species	105841	0.015963098724455425	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|ventriosum	Species	39496	0.1515277987578043	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Dialister|massiliensis	Species	2161821	0.039354423260621114	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lactobacillus|gasseri	Species	1596	0.001951087810055499	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|portucalensis	Species	1639133	0.0023008165793949593	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|tuberculostearicum	Species	38304	0.0003941820402207535	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|pseudolongum	Species	1694	0.019497405855156625	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Faecalibacterium|sp. I2-3-92	Species	2929490	0.26987501080942833	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Segatella|hominis	Species	2518605	0.110610604004216	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Coriobacteriaceae|Collinsella|stercoris	Species	147206	0.01718827066725007	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Hungatella|hathewayi	Species	154046	0.10361283398347573	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|hominis	Species	301301	0.35691956214786347	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|ovatus	Species	28116	0.4317156621052558	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Limosilactobacillus|mucosae	Species	97478	0.022166655714809608	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Flavonifractor|plautii	Species	292800	0.33757278715438765	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|finegoldii	Species	214856	0.16774081618228814	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|sp. zg-Y820	Species	2894192	0.0001745334196451752	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|faecium	Species	33025	0.08930485185932718	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Citrobacter|sp. RHB36-C18	Species	2742627	0.0020979934599314547	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|pseudocatenulatum	Species	28026	0.19256273356370043	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|rectibacter	Species	2763062	0.09539281683638978	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|nakazawae	Species	2682456	0.006146233734456539	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Eubacterium|sp. MSJ-33	Species	2841528	0.027937713941985274	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Pusillibacter|faecalis	Species	2714358	0.07516391471617698	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Actinomyces|oris	Species	544580	0.005592387527730884	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|gasigenes	Species	94869	0.004216154803933259	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|longum	Species	216816	1.6652272634357153	MS
+Bacteria|Actinomycetota|Actinomycetes|Mycobacteriales|Corynebacteriaceae|Corynebacterium|amycolatum	Species	43765	0.00017510307501522615	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|botulinum	Species	1491	0.007921407287917013	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Lachnospira|eligens	Species	39485	0.40775693041731315	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|sp. 13368	Species	2708053	0.019729927767081046	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|mitis	Species	28037	0.004824636360306428	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Odoribacteraceae|Odoribacter|splanchnicus	Species	28118	0.37742906145145383	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Dorea|formicigenerans	Species	39486	0.21369274899992113	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|fairfieldensis	Species	44742	0.010397420567920325	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. DH3716P	Species	2847299	0.016324491456938622	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Enterococcaceae|Enterococcus|faecium	Species	1352	0.05076204285445493	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|luti	Species	89014	0.33059408069808033	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. Rep29	Species	2691580	0.008353467711326435	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|[Clostridium] innocuum	Species	1522	0.15622864575194095	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Monoglobus|pectinilyticus	Species	1981510	0.017161796567804453	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|herbatica	Species	2801997	0.004380831990876745	MS
+Bacteria|Bacillota|Negativicutes|Acidaminococcales|Acidaminococcaceae|Phascolarctobacterium|sp. Marseille-Q4147	Species	2823317	0.011332751714972247	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Ruminococcus|champanellensis	Species	1161942	0.03250430958196031	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Terrisporobacter|hibernicus	Species	2813371	0.005210005323472537	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Flintibacter|sp. KGMB00164	Species	2610895	0.05030669790441847	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|obeum	Species	40520	1.3099842008914127	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinimonas|butyriciproducens	Species	1297617	0.08479223387694457	MS
+Bacteria|Actinomycetota|Coriobacteriia|Coriobacteriales|Atopobiaceae|Parafannyhessea|umbonata	Species	604330	0.011721398537194625	MS
+Bacteria|Pseudomonadota|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|coli	Species	562	0.22654319035166876	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Rikenellaceae|Alistipes|dispar	Species	2585119	0.12217439336391797	MS
+Bacteria|Thermodesulfobacteriota|Desulfovibrionia|Desulfovibrionales|Desulfovibrionaceae|Desulfovibrio|piger	Species	901	0.037941956522153486	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|adolescentis	Species	1680	2.509632586923446	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|salyersiae	Species	291644	0.07196967529623405	MS
+Bacteria|Pseudomonadota|Betaproteobacteria|Burkholderiales|Sutterellaceae|Duodenibacillus|massiliensis	Species	1852381	0.02837786426681423	MS
+Bacteria|Bacillota|Bacilli|Bacillales|Staphylococcaceae|Staphylococcus|capitis	Species	29388	0.0002689673496312474	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae|Verrucomicrobiales|Akkermansiaceae|Akkermansia|muciniphila	Species	239935	0.46631253762851893	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Geodermatophilus|obscurus	Species	1861	0.00033628340784795787	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Lactobacillaceae|Lacticaseibacillus|paracasei	Species	1597	0.006925685436380725	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Clostridiaceae|Clostridium|sp. M62/1	Species	411486	0.09426436753381315	MS
+Bacteria|Actinomycetota|Actinomycetes|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|catenulatum	Species	1686	0.23865134791643045	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Coprobacillaceae|Thomasclavelia|ramosa	Species	1547	0.051126629219145556	MS
+Bacteria|Actinomycetota|Actinomycetes|Geodermatophilales|Geodermatophilaceae|Blastococcus|saxobsidens	Species	138336	0.00021500996795565533	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|stercoris	Species	46506	1.1046358275396468	MS
+Bacteria|Actinomycetota|Actinomycetes|Actinomycetales|Actinomycetaceae|Schaalia|odontolytica	Species	1660	0.021698264488761453	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|caccae	Species	47678	0.4178974263554325	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|eggerthii	Species	28111	0.6352704081894471	MS
+Bacteria|Bacillota|Negativicutes|Veillonellales|Veillonellaceae|Megasphaera|hexanoica	Species	1675036	0.008038139699857947	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Coprococcus|catus	Species	116085	0.2328057706654001	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|cellulosilyticus	Species	246787	0.23020703608116358	MS
+Bacteria|Spirochaetota|Spirochaetia|Brachyspirales|Brachyspiraceae|Brachyspira|pilosicoli	Species	52584	0.002248740625779078	MS
+Bacteria|Bacillota|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|thermophilus	Species	1308	0.054683117048492096	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Pseudoprevotella|muciniphila	Species	2133944	0.00631327504572634	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|communis	Species	2913614	0.007709754697526634	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Turicibacteraceae|Turicibacter|sanguinis	Species	154288	0.010778330994917016	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microbacterium|sp. BH-3-3-3	Species	1906742	0.00017980823619896693	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. A1C1	Species	2528203	0.033004733791901254	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|dentalis	Species	52227	0.010368851399309594	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Oscillospiraceae|Dysosmobacter|welbionis	Species	2093857	0.26783871804857423	MS
+Bacteria|Bacillota|Erysipelotrichia|Erysipelotrichales|Erysipelotrichaceae|Amedibacterium|intestinale	Species	2583452	0.012549244853532166	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Hoylesella|buccalis	Species	28127	0.006662022735497348	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Claveliimonas|bilis	Species	3028070	0.07162438744974543	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|luhongzhouii	Species	2650158	0.027171883520962052	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Roseburia|intestinalis	Species	166486	1.074093360416526	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Peptostreptococcaceae|Romboutsia|ilealis	Species	1115758	0.10400756811752726	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Xylanibacter|ruminicola	Species	839	0.008286935869232789	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|sp. ZJ-18	Species	2709390	0.0020991197926447636	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Eubacteriaceae|Intestinibacillus|sp. NTUH-41-i26	Species	3079303	0.04735244924738622	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|caecimuris	Species	1796613	0.0387256862489237	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Micrococcaceae|Arthrobacter|jiangjiafuii	Species	2817475	0.0001519002894923073	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Prevotellaceae|Prevotella|sp. oral taxon 475	Species	712471	0.005154571458613657	MS
+Bacteria|Bacillota|Clostridia|Eubacteriales|Lachnospiraceae|Blautia|hydrogenotrophica	Species	53443	0.0640054719406402	MS
+Bacteria|Actinomycetota|Actinomycetes|Micrococcales|Microbacteriaceae|Microterricola|viridarii	Species	412690	0.00041939066419947017	MS
+Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Tannerellaceae|Parabacteroides|goldsteinii	Species	328812	0.02949046332842866	MS
+Bacteria|Verrucomicrobiota|Verrucomicrobiae	Class	203494	0.49662398567537025	MS
