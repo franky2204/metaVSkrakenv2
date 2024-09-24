@@ -192,7 +192,6 @@ def createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict):
                     f"{kraken_cat.sample}\t{kraken_cat.clade}\t{kraken_cat.three}\t{kraken_cat.quantity}\n"
                 )
 def createMean(metaObj, ms_samples, naive):
-    samples_list=""
     mean_list_healty = []
     mean_list_ms = []
     for meta_cat in metaObj:
@@ -201,7 +200,6 @@ def createMean(metaObj, ms_samples, naive):
             if meta_cat.sample not in naive and meta_cat.clade != -1:
                 existing_mean = next((mean for mean in mean_list_healty if mean.three == meta_cat.three), None)
                 if existing_mean is None:
-                    samples_list=samples_list+meta_cat.sample
                     meanObj = mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade,float(meta_cat.qtyWOU), status)
                     mean_list_healty.append(meanObj)
                 else:
@@ -214,34 +212,9 @@ def createMean(metaObj, ms_samples, naive):
                     mean_list_ms.append(meanObj)
                 else:
                     existing_mean.quantity += float(meta_cat.qtyWOU)
-    print(samples_list)
     return mean_list_healty, mean_list_ms
 
-def printComparison(metaMeanList,krakenMeanList,healty_samples_count,ms_samples_count,naive):
-    with open("Healty.txt", "w") as healty_samples, \
-         open("MS.txt", "w") as MS_samples:
-
-        # Scrivi gli header
-        createTemplate1(healty_samples, "MetaPhlAn")
-        createTemplate1(healty_samples, "Kraken")
-        createTemplate1(MS_samples, "MetaPhlAn")
-        createTemplate1(MS_samples, "Kraken")
-
-        # Calcola le medie e scrivi i risultati nei file
-        for meanObj in metaMeanList:
-            meanObj.quantity /= healty_samples_count if meanObj.status == "HEALTY" else ms_samples_count
-            if meanObj.status == "HEALTY":
-                healty_samples.write(f"{meanObj.depth}\t{meanObj.clade}\t{meanObj.quantity}\n")
-            else:
-                MS_samples.write(f"{meanObj.depth}\t{meanObj.clade}\t{meanObj.quantity}\n")
-
-        for meanObj in krakenMeanList:
-            meanObj.quantity /= healty_samples_count if meanObj.status == "HEALTY" else ms_samples_count
-            if meanObj.status == "HEALTY":
-                healty_samples.write(f"{meanObj.depth}\t{meanObj.clade}\t{meanObj.quantity}\n")
-            else:
-                MS_samples.write(f"{meanObj.depth}\t{meanObj.clade}\t{meanObj.quantity}\n")
-
+def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, krakenMeanListMS, healty_samples_count, MS_samples_count) :
 #def printMean(meta_dict, kraken_dict, healty_samples_count, ms_samples_count, naive):
     with open("Healty_both.txt", "w") as healty_samples, \
          open("Healty_kraken.txt", "w") as healty_kraken, \
@@ -258,50 +231,39 @@ def printComparison(metaMeanList,krakenMeanList,healty_samples_count,ms_samples_
         createTemplate1(MS_kraken, "kraken")
         createTemplate1(MS_metaphlan, "metaphlan")
 
-        # Raggruppa e somma i valori per clade per MetaPhlAn e Kraken
-        for key, meta_cat in meta_dict.items():
-            clade = meta_cat.clade
-            sample_name = meta_cat.sample
-            is_ms = ("MS" in sample_name or "MAV" in sample_name or "TEC" in sample_name)and sample_name not in naive
-
-            # Somma i valori per MetaPhlAn
-            if clade not in meta_sums:
-                meta_sums[clade] = 0
-            meta_sums[clade] += float(meta_cat.qtyWOU)
-
-            if key in kraken_dict:
-                kraken_cat = kraken_dict[key]
-
-                # Somma i valori per Kraken
-                if clade not in kraken_sums:
-                    kraken_sums[clade] = 0
-                kraken_sums[clade] += float(kraken_cat.quantity)
-
-        # Calcola le medie e scrivi i risultati nei file
-        for clade in meta_sums:
-            meta_mean_qtyWOU = meta_sums[clade] / (ms_samples_count if is_ms else healty_samples_count)
-            kraken_mean_quantity = kraken_sums.get(clade, 0) / (ms_samples_count if is_ms else healty_samples_count)
-            
-            if is_ms:
-                MS_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
-                                 f"{meta_mean_qtyWOU}\t{kraken_mean_quantity}\t"
-                                 f"{meta_mean_qtyWOU/kraken_mean_quantity if kraken_mean_quantity != 0 else 0}\n")
+        for metaMean in metaMeanListHealty:
+            krakenMean = next((km for km in krakenMeanListHealty if km.clade == metaMean.clade), None)
+            if krakenMean:
+                healty_samples.write(
+                    f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t"
+                    f"{metaMean.quantity/healty_samples_count}\t"
+                    f"{krakenMean.quantity/healty_samples_count}\t"
+                    f"{metaMean.quantity / krakenMean.quantity if krakenMean.quantity != 0 else 0}\n"
+                )
             else:
-                healty_samples.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t"
-                                     f"{meta_mean_qtyWOU}\t{kraken_mean_quantity}\t"
-                                     f"{meta_mean_qtyWOU/kraken_mean_quantity if kraken_mean_quantity != 0 else 0}\n")
+                healty_metaphlan.write(f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t{metaMean.quantity/healty_samples_count}\n")
+        
+        for krakenMean in krakenMeanListHealty:
+            metaMean = next((mm for mm in metaMeanListHealty if mm.clade == krakenMean.clade), None)
+            if not metaMean:
+                healty_kraken.write(f"{krakenMean.depth}\t{krakenMean.clade}\t{krakenMean.three}\t{krakenMean.quantity/healty_samples_count}\n")
 
-            # Scrivi anche i file separati per MetaPhlAn e Kraken
-            if is_ms:
-                MS_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_mean_qtyWOU}\n")
-                if clade in kraken_sums:
-                    MS_kraken.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{kraken_mean_quantity}\n")
+        for metaMean in metaMeanListMS:
+            krakenMean = next((km for km in krakenMeanListMS if km.clade == metaMean.clade), None)
+            if krakenMean:
+                MS_samples.write(
+                    f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t"
+                    f"{metaMean.quantity/MS_samples_count}\t"
+                    f"{krakenMean.quantity/MS_samples_count}\t"
+                    f"{metaMean.quantity / krakenMean.quantity if krakenMean.quantity != 0 else 0}\n"
+                )
             else:
-                healty_metaphlan.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{meta_mean_qtyWOU}\n")
-                if clade in kraken_sums:
-                    healty_kraken.write(f"{meta_cat.depth}\t{meta_cat.clade}\t{meta_cat.three}\t{kraken_mean_quantity}\n")
-
-     
+                MS_metaphlan.write(f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t{metaMean.quantity/MS_samples_count}\n")
+        
+        for krakenMean in krakenMeanListMS:
+            metaMean = next((mm for mm in metaMeanListMS if mm.clade == krakenMean.clade), None)
+            if not metaMean:
+                MS_kraken.write(f"{krakenMean.depth}\t{krakenMean.clade}\t{krakenMean.three}\t{krakenMean.quantity/MS_samples_count}\n")
        
 def createTemplate1(file,tool):
     file.write(f"Depth\tTaxa_id\tTaxonomic_Tree\t{tool}_mean\n")   
@@ -338,7 +300,7 @@ healty_samples_count = len(non_naive_non_ms_samples)
 print(healty_samples_count)
 metaMeanListHealty, metaMeanListMS=createMean(metaObj,ms_samples,naive)
 krakenMeanListHealty, krakenMeanListMS=createMean(krakenObj,ms_samples,naive)
-
+comparePercent(metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, krakenMeanListMS, healty_samples_count, samples_list - healty_samples_count)
 with open("metaMeanListHealty.txt", "w") as file:
     for item in metaMeanListHealty:
         file.write(f"{item.three}\t{item.depth}\t{item.clade}\t{item.quantity}\t{item.status}\n")
