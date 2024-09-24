@@ -215,7 +215,7 @@ def createMean(metaObj, ms_samples, naive):
     return mean_list_healty, mean_list_ms
 
 def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, krakenMeanListMS, healty_samples_count, MS_samples_count) :
-#def printMean(meta_dict, kraken_dict, healty_samples_count, ms_samples_count, naive):
+
     with open("Healty_both.txt", "w") as healty_samples, \
          open("Healty_kraken.txt", "w") as healty_kraken, \
          open("Healty_metaphlan.txt", "w") as healty_metaphlan, \
@@ -223,7 +223,6 @@ def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, kr
          open("MS_kraken.txt", "w") as MS_kraken, \
          open("MS_metaphlan.txt", "w") as MS_metaphlan:
 
-        # Scrivi gli header
         createTemplate2(healty_samples)
         createTemplate1(healty_kraken, "kraken")
         createTemplate1(healty_metaphlan, "metaphlan")
@@ -238,7 +237,7 @@ def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, kr
                     f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t"
                     f"{metaMean.quantity/healty_samples_count}\t"
                     f"{krakenMean.quantity/healty_samples_count}\t"
-                    f"{metaMean.quantity / krakenMean.quantity if krakenMean.quantity != 0 else 0}\n"
+                    f"{round((metaMean.quantity / krakenMean.quantity)*100,2)}\n"
                 )
             else:
                 healty_metaphlan.write(f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t{metaMean.quantity/healty_samples_count}\n")
@@ -255,7 +254,7 @@ def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, kr
                     f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t"
                     f"{metaMean.quantity/MS_samples_count}\t"
                     f"{krakenMean.quantity/MS_samples_count}\t"
-                    f"{metaMean.quantity / krakenMean.quantity if krakenMean.quantity != 0 else 0}\n"
+                    f"{round((metaMean.quantity / krakenMean.quantity)*100,2)}\n"
                 )
             else:
                 MS_metaphlan.write(f"{metaMean.depth}\t{metaMean.clade}\t{metaMean.three}\t{metaMean.quantity/MS_samples_count}\n")
