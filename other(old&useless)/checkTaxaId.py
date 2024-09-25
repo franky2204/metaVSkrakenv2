@@ -56,7 +56,7 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
                             unmatched_file.write('\t'.join(line) + '\n')
                             print(f"{normalized_fused_name} | {normalized_taxa_name} | {normalized_species_name}")
             else:
-                # Handle cases where taxa is not found
+            
                 fused_name = line[i-1].strip() + ' ' + line[i].strip()
                 normalized_fused_name = normalize_name(fused_name)
                 normalized_species_name = normalize_name(line[i])
@@ -65,9 +65,7 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
                     unmatched_file.write('\t'.join(line) + '\n')
                     print(f"{normalized_fused_name} | Not Found")
 
-# Define file paths
 krakenFile = "Kraken_agglom_otu_with_taxa.tsv"
 taxaFile = "formatted__names.tsv"
 
-# Execute the function
 check_taxa_id(krakenFile, taxaFile)
