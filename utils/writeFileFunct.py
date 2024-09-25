@@ -29,7 +29,7 @@ def createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict):
                 kraken_cat = kraken_dict[key]
                 sample_depth_file.write(
                     f"{meta_cat.sample}\t{meta_cat.clade}\t{meta_cat.three}\t"
-                    f"{meta_cat.qtyWOU}\t{kraken_cat.quantity}\t{(float(meta_cat.qtyWOU)/float(kraken_cat.quantity))}\n"
+                    f"{meta_cat.qtyWOU}\t{kraken_cat.quantity}\t{round(float(meta_cat.qtyWOU)/float(kraken_cat.quantity)*100,2)}\n"
                 )
             else:
                 sample_meta.write(
