@@ -1,6 +1,6 @@
-import createObject
-import writeFileFunct
-import ambiguous
+import utils.createObject as createObject
+import utils.writeFileFunct as writeFileFunct
+import utils.ambiguous as ambiguous
 #the two input files
 krakenFile="/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/kraken_taxa.tsv"
 metaFile = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/meta_table.tsv"

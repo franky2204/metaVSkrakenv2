@@ -1,8 +1,8 @@
 import csv
 import re
-import classesEl
-import readFileFunct
-import ambiguous
+import utils.classesEl as classesEl
+import utils.readFileFunct as readFileFunct
+import utils.ambiguous as ambiguous
 
 #path to the meta files(absolute)
 path_to_meta = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/metaResult/"

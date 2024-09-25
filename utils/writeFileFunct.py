@@ -1,5 +1,5 @@
 import os
-import classesEl
+import utils.classesEl as classesEl
 #absolute path for the output files
 path_output="/home/francesco/Desktop/git/mine/metaVSkrakenv2/output/"
 #creates the output directory if it does not exist 
