@@ -1,13 +1,9 @@
-import os
-import sys
-#set your absolute path(for function import)
-sys.path.append(os.path.abspath("/home/francesco/Desktop/git/mine/metaVSkrakenv2/program/utils"))
 import createObject
 import writeFileFunct
 import ambiguous
 #the two input files
-krakenFile="/home/francesco/Desktop/git/mine/metaVSkrakenv2/program/input/kraken_taxa.tsv"
-metaFile = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/program/input/meta_table.tsv"
+krakenFile="/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/kraken_taxa.tsv"
+metaFile = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/meta_table.tsv"
 #creates the objects for confrontation(see description in createObject.py)
 mList,metaObj=createObject.createMetaObjects(metaFile)
 kList,krakenObj=createObject.createKrakenObjects(krakenFile)

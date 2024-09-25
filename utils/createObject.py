@@ -1,10 +1,11 @@
 import csv
 import re
-import classes
+import classesEl
 import readFileFunct
 import ambiguous
+
 #path to the meta files(absolute)
-path_to_meta = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/program/metaResult/"
+path_to_meta = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/metaResult/"
 
 #create a list of objects from the kraken file
 def createKrakenObjects(file_path):
@@ -32,7 +33,7 @@ def createKrakenObjects(file_path):
             three=three+line_s[n+1]
             for n in range(len(sample_names)):
                 if percentual[n] != "0":
-                    categorization = classes.Categorization("Kraken",
+                    categorization = classesEl.Categorization("Kraken",
                                                  sample_names[n],
                                                  letter,
                                                  three,
@@ -63,7 +64,7 @@ def createMetaObjects(file_path):
                         line_s = line_s.split('\t')
                         percentual = float(line_s[2])
                         letter,name=readFileFunct.find_last_name(line_s[0])
-                        categorization = classes.Categorization("MetaPhlAn",
+                        categorization = classesEl.Categorization("MetaPhlAn",
                                                          sample_names[i],
                                                          ambiguous.from_letter_to_taxa(letter),
                                                          re.sub(r'[a-zA-Z]__', '', line_s[0]),
@@ -84,7 +85,7 @@ def createMean(metaObj, ms_samples, naive):
             if meta_cat.sample not in naive and meta_cat.clade != -1:
                 existing_mean = next((mean for mean in mean_list_healty if mean.three == meta_cat.three), None)
                 if existing_mean is None:
-                    meanObj = classes.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade,float(meta_cat.qtyWOU), status)
+                    meanObj = classesEl.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade,float(meta_cat.qtyWOU), status)
                     mean_list_healty.append(meanObj)
                 else:
                     existing_mean.quantity += float(meta_cat.qtyWOU)
@@ -92,14 +93,14 @@ def createMean(metaObj, ms_samples, naive):
             if meta_cat.sample not in naive and meta_cat.clade != -1:
                 existing_mean = next((mean for mean in mean_list_ms if mean.three == meta_cat.three), None)
                 if existing_mean is None:
-                    meanObj = classes.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade, float(meta_cat.qtyWOU), status)
+                    meanObj = classesEl.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade, float(meta_cat.qtyWOU), status)
                     mean_list_ms.append(meanObj)
                 else:
                     existing_mean.quantity += float(meta_cat.qtyWOU)
         existing_mean_all = next((mean for mean in mean_all if mean.three == meta_cat.three), None)
         if meta_cat.sample not in naive and meta_cat.clade != -1:
             if existing_mean_all is None:
-                meanObj = classes.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade, float(meta_cat.qtyWOU), "Both")
+                meanObj = classesEl.mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade, float(meta_cat.qtyWOU), "Both")
                 mean_all.append(meanObj)
             else:
                 existing_mean_all.quantity += float(meta_cat.qtyWOU)
