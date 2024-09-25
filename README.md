@@ -1,1 +1,35 @@
-Method to compare metaphlan and kraken
+# Metaphlan Kraken commparator
+
+## Description
+This project contains various methods and functionalities related to the metaVSkrakenv2 application. Each method is designed to handle specific tasks and improve the overall performance and capabilities of the application.
+
+## Methods Overview
+- **Method 1**: Description of what Method 1 does.
+- **Method 2**: Description of what Method 2 does.
+- **Method 3**: Description of what Method 3 does.
+
+## Getting Started
+To get started with this project, clone the repository and follow the installation instructions.
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/metaVSkrakenv2.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd metaVSkrakenv2
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+## Usage
+Provide examples and instructions on how to use the methods in this project.
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
