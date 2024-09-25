@@ -1,5 +1,7 @@
 import csv
 import re
+import os
+path_output="output/"
 path_to_meta = "metaResult/"
 neg_pos="REF1","BLANK"
 class Categorization:
@@ -164,11 +166,15 @@ def compareFiles(metaObj, krakenObj, naive, level):
 
     return meta_cat,kraken_cat,meta_dict,kraken_dict
    
+def setOutputFile(file_name):
+    if not os.path.exists(path_output):
+        os.makedirs(path_output)
+    return path_output+file_name
 
 def createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict):
-    with open("sample_comparison.txt", "w") as sample_depth_file, \
-         open("sample_only_kraken.txt", "w") as sample_kraken, \
-         open("sample_only_meta.txt", "w") as sample_meta:
+    with open(setOutputFile("single_sample_comparison.txt"), "w") as sample_depth_file, \
+         open(setOutputFile("single_sample_only_kraken.txt"), "w") as sample_kraken, \
+         open(setOutputFile("single_sample_only_meta.txt"), "w") as sample_meta:
         
         sample_depth_file.write("Sample\tTaxa_id\tTaxonomic_Tree\tMetaPhlAn\tKraken\tMeta/Kraken\n")
         sample_kraken.write("Sample\tTaxa_id\tTaxonomic_Tree\tKraken_Quantity\n")
@@ -194,6 +200,7 @@ def createPerSampleFile(meta_cat,kraken_cat,meta_dict,kraken_dict):
 def createMean(metaObj, ms_samples, naive):
     mean_list_healty = []
     mean_list_ms = []
+    mean_all = []
     for meta_cat in metaObj:
         status = "MS" if meta_cat.sample in ms_samples else "HEALTY"
         if status == "HEALTY":
@@ -212,16 +219,23 @@ def createMean(metaObj, ms_samples, naive):
                     mean_list_ms.append(meanObj)
                 else:
                     existing_mean.quantity += float(meta_cat.qtyWOU)
-    return mean_list_healty, mean_list_ms
+        existing_mean_all = next((mean for mean in mean_all if mean.three == meta_cat.three), None)
+        if meta_cat.sample not in naive and meta_cat.clade != -1:
+            if existing_mean_all is None:
+                meanObj = mean_data(meta_cat.three, meta_cat.depth, meta_cat.clade, float(meta_cat.qtyWOU), "Both")
+                mean_all.append(meanObj)
+            else:
+                existing_mean_all.quantity += float(meta_cat.qtyWOU)
+    return mean_list_healty, mean_list_ms, mean_all
 
 def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, krakenMeanListMS, healty_samples_count, MS_samples_count) :
 
-    with open("Healty_both.txt", "w") as healty_samples, \
-         open("Healty_kraken.txt", "w") as healty_kraken, \
-         open("Healty_metaphlan.txt", "w") as healty_metaphlan, \
-         open("MS_both.txt", "w") as MS_samples, \
-         open("MS_kraken.txt", "w") as MS_kraken, \
-         open("MS_metaphlan.txt", "w") as MS_metaphlan:
+    with open(setOutputFile("mean_Healty_both.txt"), "w") as healty_samples, \
+         open(setOutputFile("mean_Healty_kraken.txt"), "w") as healty_kraken, \
+         open(setOutputFile("mean_Healty_metaphlan.txt"), "w") as healty_metaphlan, \
+         open(setOutputFile("mean_MS_both.txt"), "w") as MS_samples, \
+         open(setOutputFile("mean_MS_kraken.txt"), "w") as MS_kraken, \
+         open(setOutputFile("mean_MS_metaphlan.txt"), "w") as MS_metaphlan:
 
         createTemplate2(healty_samples)
         createTemplate1(healty_kraken, "kraken")
@@ -263,11 +277,37 @@ def comparePercent (metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, kr
             metaMean = next((mm for mm in metaMeanListMS if mm.clade == krakenMean.clade), None)
             if not metaMean:
                 MS_kraken.write(f"{krakenMean.depth}\t{krakenMean.clade}\t{krakenMean.three}\t{krakenMean.quantity/MS_samples_count}\n")
-       
+def comparePerDiv2(meta, kraken, samples_list):
+
+    with open(setOutputFile("mean_all_both.txt"), "w") as comparison_both, \
+         open(setOutputFile("mean_all_only_meta.txt"), "w") as comparison_only_meta, \
+         open(setOutputFile("mean_all_only_kraken.txt"), "w") as comparison_only_kraken:
+        
+        createTemplate2(comparison_both)
+        createTemplate1(comparison_only_meta, "metaphlan")
+        createTemplate1(comparison_only_kraken, "kraken")
+
+        for meta_el in meta:
+            kraken_el = next((k for k in kraken if k.clade == meta_el.clade), None)
+            if kraken_el:
+                comparison_both.write(
+                    f"{meta_el.depth}\t{meta_el.clade}\t{meta_el.three}\t"
+                    f"{meta_el.quantity/samples_list}\t"
+                    f"{kraken_el.quantity/samples_list}\t"
+                    f"{round((meta_el.quantity / kraken_el.quantity)*100,2)}\n"
+                )
+            else:
+                comparison_only_meta.write(f"{meta_el.depth}\t{meta_el.clade}\t{meta_el.three}\t{meta_el.quantity/samples_list}\n")
+        
+        for kraken_el in kraken:
+            meta_el = next((m for m in meta if m.clade == kraken_el.clade), None)
+            if not meta_el:
+                comparison_only_kraken.write(f"{kraken_el.depth}\t{kraken_el.clade}\t{kraken_el.three}\t{kraken_el.quantity/samples_list}\n")
+
 def createTemplate1(file,tool):
     file.write(f"Depth\tTaxa_id\tTaxonomic_Tree\t{tool}_mean\n")   
 def createTemplate2(file):
-    file.write("Depth\tTaxa_id\tTaxonomic_Tree\tMetaPhlAn_mean\tKraken_mean\tMetaphlan/Kraken\n")
+    file.write("Depth\tTaxa_id\tTaxonomic_Tree\tMetaPhlAn_mean\tKraken_mean\tMetaphlan/Kraken(%)\n")
 
 def list_difference(lista1, lista2):
     return [nome for nome in lista1 if nome not in lista2]
@@ -297,8 +337,9 @@ ms_samples = [sample for sample in mList if "MS" in sample or "MAV" in sample or
 non_naive_non_ms_samples = [sample for sample in mList if sample not in naive and sample not in ms_samples]
 healty_samples_count = len(non_naive_non_ms_samples)
 print(healty_samples_count)
-metaMeanListHealty, metaMeanListMS=createMean(metaObj,ms_samples,naive)
-krakenMeanListHealty, krakenMeanListMS=createMean(krakenObj,ms_samples,naive)
+metaMeanListHealty, metaMeanListMS, together_meta=createMean(metaObj,ms_samples,naive)
+krakenMeanListHealty, krakenMeanListMS, together_kraken=createMean(krakenObj,ms_samples,naive)
+comparePerDiv2(together_meta,together_kraken,samples_list)
 comparePercent(metaMeanListHealty, metaMeanListMS, krakenMeanListHealty, krakenMeanListMS, healty_samples_count, samples_list - healty_samples_count)
 with open("metaMeanListHealty.txt", "w") as file:
     for item in metaMeanListHealty:
