@@ -1,2 +1,0 @@
-Sample	Depth	Taxa_id	Taxonomic Tree	MetaPhlAn Quantity	Kraken Quantity	Difference
-AMCTRL15	Species	821	Bacteria|Bacteroidota|Bacteroidia|Bacteroidales|Bacteroidaceae|Phocaeicola|Phocaeicola_vulgatus	0.12364359746869065	0.2576308226630659	-0.13398722519437528
