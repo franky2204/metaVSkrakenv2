@@ -1,12 +1,15 @@
 # Metaphlan Kraken commparator
 
 ## Description
-This project contains various methods and functionalities related to the metaVSkrakenv2 application. Each method is designed to handle specific tasks and improve the overall performance and capabilities of the application.
+It creates a series of files that aims to compare in the most complete and throw way the two classificators.
 
-## Methods Overview
-- **Method 1**: Description of what Method 1 does.
-- **Method 2**: Description of what Method 2 does.
-- **Method 3**: Description of what Method 3 does.
+## Output file overview
+- **File 1**: Description of what Method 1 does.
+- **File 2**: Description of what Method 2 does.
+- **File 3**: Description of what Method 3 does.
+- **File 4**: Description of what Method 1 does.
+- **File 5**: Description of what Method 2 does.
+- **File 6**: Description of what Method 3 does.
 
 ## Getting Started
 To get started with this project, clone the repository and follow the installation instructions.
