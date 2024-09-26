@@ -5,7 +5,7 @@ import utils.readFileFunct as readFileFunct
 import utils.ambiguous as ambiguous
 
 #path to the meta files(absolute)
-path_to_meta = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/metaResult/"
+path_to_meta = "metaResult/"
 
 #create a list of objects from the kraken file
 def createKrakenObjects(file_path):
@@ -44,7 +44,7 @@ def createKrakenObjects(file_path):
                     categorization_list.append(categorization)
     return sample_names,categorization_list
 #create a list of objects from the meta file
-def createMetaObjects(file_path):
+def createMetaObjects(file_path,archaea,eukaryota):
     categorization_list = []
     with open(file_path, 'r') as infile:
         reader = csv.reader(infile, delimiter='\t')
@@ -52,13 +52,12 @@ def createMetaObjects(file_path):
         sample_names = readFileFunct.extract_sample(infile,1)
         sample_names = [name.replace("_output","") for name in sample_names]       
         unknown = readFileFunct.extract_sample(infile,1)
-        unknown = [float(value) for value in unknown]
-        
+        unknown = [float(value) for value in unknown]      
         for i in range(len(sample_names)):
             file_to_open =path_to_meta+sample_names[i]+"_output.txt"
             with open(file_to_open, 'r') as file_single:
                 for line_s in file_single:
-                    if line_s.startswith("#") or line_s.startswith("UNCLASSIFIED"):
+                    if line_s.startswith("#") or line_s.startswith("UNCLASSIFIED") or line_s.startswith("k__Eukaryota") or line_s.startswith("k__Archaea"):
                         continue
                     else:
                         line_s = line_s.split('\t')
@@ -71,7 +70,7 @@ def createMetaObjects(file_path):
                                                          name ,
                                                          readFileFunct.findClade(line_s[1]),
                                                          (percentual/100),
-                                                         ((percentual/(100-unknown[i])))) 
+                                                         ((percentual/(100-(unknown[i]+archaea[i]+eukaryota[i]))))) 
                         categorization_list.append(categorization)
     return sample_names,categorization_list  
 #creates a new list with the sum of the varius taxid from the list created by createMetaObjects or createKrakenObjects

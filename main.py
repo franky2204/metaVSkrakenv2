@@ -1,12 +1,17 @@
 #imports
 import utils.createObject as createObject
 import utils.writeFileFunct as writeFileFunct
+import utils.readFileFunct as readFileFunct
 import utils.ambiguous as ambiguous
 #the two input files
-krakenFile="/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/kraken_taxa.tsv"
-metaFile = "/home/francesco/Desktop/git/mine/metaVSkrakenv2/input/meta_table.tsv"
+krakenFile="input/kraken_taxa.tsv"
+metaFile = "input/meta_table.tsv"
+
+archaea, eukaryota = readFileFunct.findNotBacteria(metaFile)
+print(f"Archaea: {archaea}")
+print(f"Eukaryota: {eukaryota}")
 #creates the objects for confrontation(see description in createObject.py)
-mList,metaObj=createObject.createMetaObjects(metaFile)
+mList,metaObj=createObject.createMetaObjects(metaFile,archaea,eukaryota)
 kList,krakenObj=createObject.createKrakenObjects(krakenFile)
 
 #this two samples are not considered in the second and third confrontation

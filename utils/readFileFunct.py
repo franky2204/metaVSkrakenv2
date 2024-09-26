@@ -17,3 +17,19 @@ def find_last_name(taxonomy_string):
     last_element = elements[-1]
     letter, name = last_element.split('__')
     return letter, name
+
+def findNotBacteria(metaFile): 
+    archaea = []
+    eukaryota = []
+
+    with open(metaFile, 'r') as file:
+        for line in file:
+            elements = line.strip().split('\t')
+            first_element = elements[0]
+            if elements[0]=='k__Eukaryota':
+                eukaryota.extend(elements[1:])
+            elif elements[0]=='k__Archaea':
+                archaea.extend(elements[1:])
+    archaea=[float(value) for value in archaea]
+    eukaryota=[float(value) for value in eukaryota]
+    return archaea, eukaryota

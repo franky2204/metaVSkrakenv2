@@ -1,7 +1,7 @@
 import os
 import utils.classesEl as classesEl
 #absolute path for the output files
-path_output="/home/francesco/Desktop/git/mine/metaVSkrakenv2/output/"
+path_output="output/"
 #creates the output directory if it does not exist 
 def setOutputFile(file_name):
     if not os.path.exists(path_output):

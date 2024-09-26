@@ -22,3 +22,8 @@ class meta_unknown:
     def __init__(self, sample, quantity):
         self.sample = sample
         self.quantity = quantity
+class kingdom_remove:
+    def __init__(self, sample, kigdom, quantity):
+        self.sample = sample
+        self.kigdom = kigdom
+        self.quantity = quantity
