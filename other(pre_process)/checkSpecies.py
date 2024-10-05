@@ -43,7 +43,7 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
                     print(f"{normalized_fused_name} | {normalized_taxa_name}")
                     unmatched_file.write('\t'.join(line) + '\n')
 
-krakenFile = "Kraken_otu.tsv"
-taxaFile = "formatted__names.tsv"
+krakenFile = "Prova_phyloseq_daMetaph.tsv"
+taxaFile = "input/formatted__names.tsv"
 
 check_taxa_id(krakenFile, taxaFile)

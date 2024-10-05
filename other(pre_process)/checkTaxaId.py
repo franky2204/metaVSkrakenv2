@@ -18,19 +18,21 @@ def search_corrispondance(taxa_el,name, fused_name):
     return next((taxa.id for taxa in taxa_el if normalize_name(taxa.name) == normalize_name(name) or normalize_name(taxa.name) == normalize_name(fused_name)), -1)
     
 
-def check_taxa_id(kraken_file_path, taxa_file_path):
+def check_taxa_id(pylo_file_path, taxa_file_path):
+    count=0
     #read all the row from the kraken file and the taxa file 
-    with open(kraken_file_path, 'r') as kraken_file, open(taxa_file_path, 'r') as taxa_file:
+    with open(pylo_file_path, 'r') as pylo_file, open(taxa_file_path, 'r') as taxa_file:
         taxa_el = []
     #the taxa part is the easiest simpli save each row as a TaxaName object in a list
         for line in taxa_file:
             line = line.strip().split('\t')
             taxa_el.append(TaxaName(line[0], line[1]))
-        next(kraken_file)
+        next(pylo_file)
     #for each row in the kraken file we will try to find the corresponding taxa in the taxa file
     #the cicle is used to find the last non NA value in the row that will correspond 
     # to the deepest three level(to witch the taxa is referring)
-        for line in kraken_file:
+        for line in pylo_file:
+            count =+ 1
             line = line.strip().split('\t')
             i = 7
             while i >= 0 and line[i] == 'NA':
@@ -45,6 +47,7 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
         #otherwwise search for a corresponding name in the taxa file
         #if it finds it it will write the row in the matched_taxa file with the taxaid changed
             if taxa is not None:
+                
                 fused_name = line[i-1].strip() + ' ' + line[i].strip()
                 normalized_fused_name = normalize_name(fused_name)
                 normalized_species_name = normalize_name(line[i])
@@ -62,7 +65,7 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
                     else :    
                         with open('unmatched_taxa.txt', 'a') as unmatched_file:
                             unmatched_file.write('\t'.join(line) + '\n')
-                            print(f"{normalized_fused_name} | {normalized_taxa_name} | {normalized_species_name}")
+                            
             else:
             
                 fused_name = line[i-1].strip() + ' ' + line[i].strip()
@@ -71,10 +74,10 @@ def check_taxa_id(kraken_file_path, taxa_file_path):
 
                 with open('unmatched_taxa.txt', 'a') as unmatched_file:
                     unmatched_file.write('\t'.join(line) + '\n')
-                    print(f"{normalized_fused_name} | Not Found")
+                    print(f"{count} both={normalized_fused_name} species={normalized_species_name}")
 #this is used to validate the clades number present in the kraken file
 #taxa file is a tsv file with taxaid and name of the taxa for each row
-krakenFile = "input/Kraken_agglom_otu_with_taxa.tsv"
+pyloFile = "input/Prova_phyloseq_daMetaph.tsv"
 taxaFile = "input/formatted__names.tsv"
 
-check_taxa_id(krakenFile, taxaFile)
+check_taxa_id(pyloFile, taxaFile)
